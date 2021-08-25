@@ -7,7 +7,7 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   const products = await await Product.find({}).lean();
   //   res.json(products);
-  return res.render("products/allProducts", {
+  return res.render("ejs/products", {
     products: products,
   });
 });

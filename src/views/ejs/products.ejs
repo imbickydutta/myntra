@@ -290,7 +290,22 @@
                 <option value="4">Popularity</option>
               </select>
             </div>
-            <div id="products-right"></div>
+            <div id="products-right">
+              <% products.map((el) => { %>
+              <a class="each-product" href="moda.html"
+                ><div>
+                  <img src="el.image[1]" alt="" />
+                  <div class="brand"><%= el.brandName %></div>
+                  <div class="name"><%= el.productName %></div>
+                  <div class="price">
+                    Rs. <%= Math.ceil(el.price * (100 - el.discount) / 100)%>
+                    <span class="line-through"> Rs. <%= el.price %></span>
+                    <span class="discount">(<%= el.discount %> % OFF)</span>
+                  </div>
+                </div></a
+              >
+              <% }) %>
+            </div>
           </div>
         </div>
       </div>

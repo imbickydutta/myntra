@@ -5,18 +5,19 @@ const productSchema = new mongoose.Schema(
     brandName: { type: String, required: true },
     category: { type: String, required: true },
     description: { type: String, required: false },
-    name: { type: String, required: true },
+    productName: { type: String, required: true },
     price: { type: Number, required: true },
     quantity: { type: Number, required: false },
-    image: { type: String, required: false },
+    images: { type: String, required: true },
     discount: { type: Number, required: false },
-    sizes: [{ type: Number, required: false }],
+    sizes: [{ type: String, required: false }],
+    color: { type: String, required: false },
     colorIds: [
       { type: mongoose.Schema.Types.ObjectId, ref: "color", required: false },
     ],
     gender: { type: String, required: true },
     tagIds: [
-      { type: mongoose.Schema.Types.ObjectId, ref: "tag", required: true },
+      { type: mongoose.Schema.Types.ObjectId, ref: "tag", required: false },
     ],
   },
   {

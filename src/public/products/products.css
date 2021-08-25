@@ -204,7 +204,7 @@ select:focus {
   /* padding: 20px; */
 }
 .filter-left {
-  width: 15%;
+  width: 100%;
 }
 .midsize {
   font-size: 14px;
@@ -243,7 +243,8 @@ select:focus {
 }
 
 .products-catalogue {
-  display: flex;
+  display: grid;
+  grid-template-columns: 13% 87%;
 }
 
 #products-right {

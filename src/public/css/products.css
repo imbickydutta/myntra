@@ -276,6 +276,9 @@ select:focus {
 .each-product .name {
   font-weight: 100;
   font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .each-product .price {

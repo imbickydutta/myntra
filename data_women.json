@@ -1,0 +1,402 @@
+[
+  {
+    "brandName": "SASSAFRAS",
+    "productName": "Women Black Crop Ribbed Top",
+    "price": 649,
+    "discount": 40,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Top",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12284212/2020/8/25/8fc39488-cee7-4424-870d-ae5bd666d19c1598366814622-SASSAFRAS-Women-Black-Solid-Top-601598366813572-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12284212/2020/8/25/e133c8fd-553e-4be8-b6f5-0c393284c7711598366814567-SASSAFRAS-Women-Black-Solid-Top-601598366813572-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12284212/2020/8/25/c3506aa7-bd20-436c-b2b4-81e5cf57d7871598366814514-SASSAFRAS-Women-Black-Solid-Top-601598366813572-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12284212/2020/8/25/d3ffeb3f-4f19-49f4-b444-c1d5c092e7501598366814452-SASSAFRAS-Women-Black-Solid-Top-601598366813572-4.jpg"
+    ],
+    "color": "black",
+    "gender": "women"
+  },
+  {
+    "brandName": "Forever New",
+    "productName": "Off White & Pink Floral Pure Cotton Shirred Top",
+    "price": 4999,
+    "discount": 40,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Top",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14898132/2021/7/22/676e53d3-a26d-478e-9f0f-b90d85ec5dae1626959165179ForeverNewPinkFloralPuffSleeveRegularTop1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14898132/2021/7/22/f92f8ca2-485e-4359-af51-2feac504d9961626959165263ForeverNewPinkFloralPuffSleeveRegularTop2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14898132/2021/7/22/1457ca10-6fef-4f1a-be49-1d8689d14cc71626959165431ForeverNewPinkFloralPuffSleeveRegularTop3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14898132/2021/7/22/e732ba26-5b1a-40d3-93f6-16f2e48ba20f1626959165372ForeverNewPinkFloralPuffSleeveRegularTop4.jpg"
+    ],
+    "color": "white",
+    "gender": "women"
+  },
+  {
+    "brandName": "STREET 9",
+    "productName": "Women Red Printed Cinched Waist Top",
+    "price": 584,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Top",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2687696/2018/3/5/11520244773767-na-8411520244773560-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2687696/2018/3/5/11520244773746-na-8411520244773560-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2687696/2018/3/5/11520244773680-na-8411520244773560-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2687696/2018/3/5/11520244773653-na-8411520244773560-5.jpg"
+    ],
+    "color": "red",
+    "gender": "women"
+  },
+  {
+    "brandName": "HERE&NOW",
+    "productName": "Women Olive Green & Blue Printed A-Line Top with Gathered Detail",
+    "price": 554,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Top",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11430022/2020/3/16/984abbcc-c424-4a74-a8f1-3471db1cbe2d1584352862961-HERENOW-Women-Olive-Green--Blue-Printed-Empire-Top-with-Gath-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11430022/2020/3/16/57117637-e892-4ca9-9da7-f4085b9028c71584352862906-HERENOW-Women-Olive-Green--Blue-Printed-Empire-Top-with-Gath-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11430022/2020/3/16/d0d47b90-cee8-4333-90b4-a2efaf4a787d1584352862861-HERENOW-Women-Olive-Green--Blue-Printed-Empire-Top-with-Gath-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11430022/2020/3/16/82c52e13-af47-42d0-8c40-d7fae795fa861584352862819-HERENOW-Women-Olive-Green--Blue-Printed-Empire-Top-with-Gath-4.jpg"
+    ],
+    "color": "olive",
+    "gender": "women"
+  },
+  {
+    "brandName": "Athena",
+    "productName": "Chic Fuchsia Pink Power Shoulders Top",
+    "price": 484,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Top",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13719116/2021/3/3/90d0980a-8b39-48bd-9bf9-a67beb14a9741614753528611-Athena-Fuchsia-Pink-top-with-power-shoulder-sleeve-detail-22-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13719116/2021/3/3/ad3c4d8b-019b-4f79-9e3f-a92246f1f6711614753528593-Athena-Fuchsia-Pink-top-with-power-shoulder-sleeve-detail-22-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13719116/2021/3/3/c1e78a6b-b79c-47ac-ab6a-03dd8f55d1921614753528566-Athena-Fuchsia-Pink-top-with-power-shoulder-sleeve-detail-22-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13719116/2021/3/3/d0d91655-2135-4a66-bf22-de1f628e8aed1614753528536-Athena-Fuchsia-Pink-top-with-power-shoulder-sleeve-detail-22-4.jpg"
+    ],
+    "color": "pink",
+    "gender": "women"
+  },
+  {
+    "brandName": "KOTTY",
+    "productName": "Women Black Wide Leg High-Rise Clean Look Jeans",
+    "price": 814,
+    "discount": 45,
+    "sizes": [26, 28, 30, 32, 34],
+    "category": "Jeans",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12384822/2020/9/1/3901ed9b-db0c-4056-817d-a518ac01a0691598947696216KottyWomenBlackWideLegJeans1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12384822/2020/9/1/55cb3f3b-0ff2-4703-a289-f9a5a6d6c2991598947696275KottyWomenBlackWideLegJeans2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12384822/2020/9/1/bc756112-4d8d-4cac-933b-d2b185ee83ce1598947696326KottyWomenBlackWideLegJeans3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12384822/2020/9/1/b511eceb-3655-4139-a9ab-8d35c759c3461598947696374KottyWomenBlackWideLegJeans4.jpg"
+    ],
+    "color": "black",
+    "gender": "women"
+  },
+  {
+    "brandName": "TOKYO TALKIES",
+    "productName": "Women Blue Super Skinny Fit High-Rise Clean Look Jeans",
+    "price": 699,
+    "discount": 45,
+    "sizes": [26, 28, 30, 34, 34],
+    "category": "Jeans",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7782711/2018/11/15/169555eb-2701-4f6d-a2e5-058197f283961542266328927-na-3971542266328731-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7782711/2018/11/15/189add4a-e82e-4a2c-b816-24ae117b51561542266328903-na-3971542266328731-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7782711/2018/11/15/e668fe17-98ef-4bec-8dad-bc36cdbf368a1542266328881-na-3971542266328731-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7782711/2018/11/15/b08e25da-e6dc-44d2-95e6-e25fb688f5481542266328860-na-3971542266328731-4.jpg"
+    ],
+    "color": "blue",
+    "gender": "women"
+  },
+  {
+    "brandName": "SASSAFRAS",
+    "productName": "Women Lavender Relaxed Fit Mid-Rise Clean Look Pleated Jeans",
+    "price": 694,
+    "discount": 45,
+    "sizes": [28, 30, 32, 34, 36],
+    "category": "Jeans",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12221950/2020/8/13/042680ab-1269-4d8e-a133-18345015655a1597300568747-SASSAFRAS-Women-Lavender-Relaxed-Fit-Mid-Rise-Clean-Look-Ple-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12221950/2020/8/13/499a9bbe-0a4c-449c-a95d-50e06566292a1597300568646-SASSAFRAS-Women-Lavender-Relaxed-Fit-Mid-Rise-Clean-Look-Ple-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12221950/2020/8/13/cad3d24a-2036-4297-8bef-60b19c3c43521597300568535-SASSAFRAS-Women-Lavender-Relaxed-Fit-Mid-Rise-Clean-Look-Ple-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12221950/2020/8/13/cb64e9e0-dca8-437b-88de-5f23e3951aca1597300568446-SASSAFRAS-Women-Lavender-Relaxed-Fit-Mid-Rise-Clean-Look-Ple-4.jpg"
+    ],
+    "color": "lavender",
+    "gender": "women"
+  },
+  {
+    "brandName": "Nautica",
+    "productName": "Women Black Skinny Fit Light Fade Stretchable Jeans",
+    "price": 1584,
+    "discount": 45,
+    "sizes": [28, 30, 34, 36],
+    "category": "Jeans",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14289512/2021/7/19/dceaee3c-78cf-4c74-b336-8e46937412b31626669609764-Nautica-Women-Jeans-1171626669608989-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14289512/2021/7/19/7436709b-459c-4de7-86cc-01353df2218b1626669609756-Nautica-Women-Jeans-1171626669608989-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14289512/2021/7/19/e24219e5-e5e1-4c69-9627-6586f93220241626669609747-Nautica-Women-Jeans-1171626669608989-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14289512/2021/7/19/221118c6-e511-4d6f-af26-9ec596bad06c1626669609740-Nautica-Women-Jeans-1171626669608989-4.jpg"
+    ],
+    "color": "black",
+    "gender": "women"
+  },
+  {
+    "brandName": "SASSAFRAS",
+    "productName": "Women Green Regular Fit High-Rise Clean Look Stretchable Jeans",
+    "price": 754,
+    "discount": 45,
+    "sizes": [26, 28, 30, 32, 34],
+    "category": "Jeans",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12221892/2020/8/12/b2740342-737a-4f1f-8f2c-1f88fefea3ff1597230794389-SASSAFRAS-Women-Green-Regular-Fit-Mid-Rise-Clean-Look-Stretc-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12221892/2020/8/12/c7329039-0012-4c06-a96e-be048299d0cc1597230794326-SASSAFRAS-Women-Green-Regular-Fit-Mid-Rise-Clean-Look-Stretc-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12221892/2020/8/12/ab3c9d4c-f970-4524-9ff0-08703c5a59a21597230794249-SASSAFRAS-Women-Green-Regular-Fit-Mid-Rise-Clean-Look-Stretc-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12221892/2020/8/12/0b11ec43-9fdd-4c6b-977e-c2a7a43103b11597230794186-SASSAFRAS-Women-Green-Regular-Fit-Mid-Rise-Clean-Look-Stretc-4.jpg"
+    ],
+    "color": "red",
+    "gender": "women"
+  },
+  {
+    "brandName": "Anouk",
+    "productName": "Sea Green & Yellow Pure Georgette Floral Printed Saree",
+    "price": 1584,
+    "discount": 45,
+    "sizes": ["Onesize"],
+    "category": "Saree",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13903168/2021/4/17/638f7420-e644-462e-a484-d6b87e146ee51618644035247-Anouk-Sea-Green-Pure-Georgette-Printed-Dark-Floral--Daily-We-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13903168/2021/4/17/9b6006db-3ee7-480b-9089-c5b1ccb3f3fc1618644035233-Anouk-Sea-Green-Pure-Georgette-Printed-Dark-Floral--Daily-We-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13903168/2021/4/17/f32b7237-ffc7-4374-b823-491bf6a7fbd21618644035219-Anouk-Sea-Green-Pure-Georgette-Printed-Dark-Floral--Daily-We-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13903168/2021/4/17/abcecfdd-6940-413f-a784-454d962026ee1618644035202-Anouk-Sea-Green-Pure-Georgette-Printed-Dark-Floral--Daily-We-4.jpg"
+    ],
+    "color": "green",
+    "gender": "women"
+  },
+  {
+    "brandName": "Saree mall",
+    "productName": "Red Printed Ikat Saree",
+    "price": 854,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Saree",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14192560/2021/7/16/5ca880cc-77c4-4802-99a2-7c7aefa7c7f71626418370461-Saree-mall-Red--Off-White-Ikat-Printed-Sarees-91916264183699-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14192560/2021/7/16/16822a07-5fdc-494a-aa18-da8f9f4eb7b41626418370440-Saree-mall-Red--Off-White-Ikat-Printed-Sarees-91916264183699-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14192560/2021/7/16/92accbf7-2a0d-4cbe-b983-23fbb6a900a61626418370419-Saree-mall-Red--Off-White-Ikat-Printed-Sarees-91916264183699-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14192560/2021/7/16/c211b5de-e11f-4805-881a-82cd6d8083211626418370398-Saree-mall-Red--Off-White-Ikat-Printed-Sarees-91916264183699-4.jpg"
+    ],
+    "color": "red",
+    "gender": "women"
+  },
+  {
+    "brandName": "Mitera",
+    "productName": "Magenta Silk Blend Woven Design Banarasi Saree",
+    "price": 1084,
+    "discount": 45,
+    "sizes": ["Onesize"],
+    "category": "Saree",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/8/11/35643372-9a6a-45b5-a18a-af056a97b6e51565465392383-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/8/11/d70e99b6-2969-44aa-bd26-7636a69b82181565465392404-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/8/11/bc06563a-c480-46aa-a8eb-49aaced6f5271565465392429-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/8/11/ce982a2e-2702-4da9-b382-6333a69591ba1565465392454-4.jpg"
+    ],
+    "color": "magenta",
+    "gender": "women"
+  },
+  {
+    "brandName": "Tikhi Imli",
+    "productName": "Maroon & Green Tie & Dye Saree",
+    "price": 894,
+    "discount": 45,
+    "sizes": ["Onesize"],
+    "category": "Saree",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14988488/2021/7/30/a16ea8b3-d1f8-42d6-af82-d1c0c680035c1627661474245MulticolorPrintedCrepeSaree1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14988488/2021/7/30/bf38872a-a6c3-4214-8e14-48ab92f55ab01627661474236MulticolorPrintedCrepeSaree2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14988488/2021/7/30/dc16f881-08ce-4559-9233-fe7a29b052f11627661473987MulticolorPrintedCrepeSaree3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14988488/2021/7/30/a00a9acd-0e37-428e-914b-d2a00bb2bb7e1627661473558MulticolorPrintedCrepeSaree4.jpg"
+    ],
+    "color": "maroon",
+    "gender": "women"
+  },
+  {
+    "brandName": "Mitera",
+    "productName": "Navy Blue & Gold-Coloured Silk Blend Woven Design Kanjeevaram Saree",
+    "price": 1384,
+    "discount": 45,
+    "sizes": ["Onesize"],
+    "category": "Saree",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/11/28/cd191469-0b3b-470c-8365-20cc4c37556d1574893593957-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/11/28/f88f1573-08f6-46b1-9336-bc52bebda69f1574893594006-2.jpgg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/11/28/82eaf56d-fcc9-4d3b-b0b6-0542d3ad6af51574893594050-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/11/28/54bc693d-b8e9-4bd1-bcee-f29918cbbe651574893594096-4.jpg"
+    ],
+    "color": "navyblue",
+    "gender": "women"
+  },
+  {
+    "brandName": "MOCHI",
+    "productName": "Women Black Embellished T-Strap Flats",
+    "price": 984,
+    "discount": 45,
+    "sizes": [36, 37, 38, 39, 40, 41],
+    "category": "Flats",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/9/2281316b-52f0-4dc2-93c5-d4fae3b145a71612850011520-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/9/3dbfbfe1-26e3-4ec7-a102-11752c3b47661612850011534-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/9/8379ccb0-2b44-439a-ab80-7c66af9fc4a31612850011553-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/9/1d7b3c49-4873-49fb-93f6-3b25cba404f11612850011568-4.jpg"
+    ],
+    "color": "black",
+    "gender": "women"
+  },
+  {
+    "brandName": "DRESSBERRY",
+    "productName": "Women Dusty Pink Solid Open Toe Flats",
+    "price": 564,
+    "discount": 45,
+    "sizes": [36, 37, 38, 39, 40, 41],
+    "category": "Flats",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14394098/2021/7/7/55b53f58-1401-4e40-8006-d017e298e3511625657384392-DressBerry-Women-Peach-Coloured-One-Toe-Flats-21716256573838-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14394098/2021/7/7/aebccace-d088-4921-80d5-b4dec30cdecb1625657384379-DressBerry-Women-Peach-Coloured-One-Toe-Flats-21716256573838-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14394098/2021/7/7/0e528c67-9ed4-4921-ae0b-8650b2545f981625657384368-DressBerry-Women-Peach-Coloured-One-Toe-Flats-21716256573838-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14394098/2021/7/7/5405002f-9b0d-4950-8ef1-92a7cd7de9a81625657384355-DressBerry-Women-Peach-Coloured-One-Toe-Flats-21716256573838-4.jpg"
+    ],
+    "color": "pink",
+    "gender": "women"
+  },
+  {
+    "brandName": "DressBerry",
+    "productName": "Women Brown Solid Flats",
+    "price": 584,
+    "discount": 45,
+    "sizes": [36, 37, 38, 39, 40, 41],
+    "category": "Flats",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1556570/2016/12/1/11480577145109-DressBerry-Women-Flats-1911480577144813-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1556570/2016/12/1/11480577145109-DressBerry-Women-Flats-1911480577144813-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1556570/2016/12/1/11480577145109-DressBerry-Women-Flats-1911480577144813-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1556570/2016/12/1/11480577145109-DressBerry-Women-Flats-1911480577144813-1.jpg"
+    ],
+    "color": "brown",
+    "gender": "women"
+  },
+  {
+    "brandName": "DressBerry",
+    "productName": "Women White Solid Flats",
+    "price": 584,
+    "discount": 45,
+    "sizes": [36, 37, 38, 39, 40, 41],
+    "category": "Flats",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1556548/2016/12/1/11480587553962-DressBerry-Women-Flats-7071480587553479-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1556548/2016/12/1/11480587553944-DressBerry-Women-Flats-7071480587553479-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1556548/2016/12/1/11480587553924-DressBerry-Women-Flats-7071480587553479-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1556548/2016/12/1/11480587553907-DressBerry-Women-Flats-7071480587553479-4.jpg"
+    ],
+    "color": "white",
+    "gender": "women"
+  },
+  {
+    "brandName": "Vishudh",
+    "productName": "Women Blue Solid Open Toe Flats",
+    "price": 484,
+    "discount": 45,
+    "sizes": [36, 37, 38, 39, 40, 41],
+    "category": "Flats",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13926334/2021/8/5/b1618ac3-9358-4f9b-a70f-3cb0e7542bfd1628146041814VishudhWomenBlueSolidOpenToeFlats1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13926334/2021/8/5/586ea25b-2296-418d-8964-03e14a2ebff71628146042031VishudhWomenBlueSolidOpenToeFlats2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13926334/2021/8/5/5da55a9a-a1bd-4bb6-b1a5-ec25850d91841628146042093VishudhWomenBlueSolidOpenToeFlats3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13926334/2021/8/5/e69d4cd2-24b9-4375-a4c7-34091e2ac7be1628146042163VishudhWomenBlueSolidOpenToeFlats4.jpg"
+    ],
+    "color": "blue",
+    "gender": "women"
+  },
+  {
+    "brandName": "GoSriKi",
+    "productName": "Women Red & Golden Printed Kurta with Trousers & Dupatta",
+    "price": 594,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Kurta",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12974304/2021/8/10/c80ae140-f9e7-4666-821b-87db35a8c2451628559627141-GoSriKi-Women-Red--Golden-Printed-Kurta-with-Trousers--Dupat-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12974304/2021/8/10/42497b8e-840f-43ac-a260-5fa6db9115541628559627126-GoSriKi-Women-Red--Golden-Printed-Kurta-with-Trousers--Dupat-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12974304/2021/8/10/82dbe6bc-6fe8-4822-8d36-4477abbb5c351628559627118-GoSriKi-Women-Red--Golden-Printed-Kurta-with-Trousers--Dupat-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12974304/2021/8/10/97399df5-b1fa-4a17-9a74-8d5159a6fed21628559627104-GoSriKi-Women-Red--Golden-Printed-Kurta-with-Trousers--Dupat-4.jpg"
+    ],
+    "color": "red",
+    "gender": "women"
+  },
+  {
+    "brandName": "Fabindia",
+    "productName": "Women Pink Checked Cotton Kurta",
+    "price": 1584,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Kurta",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14402016/2021/7/17/cacab197-b39c-4c53-acde-4c9e6bc7eefb1626504151166-Fabindia-Women-Kurtas-4281626504150619-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14402016/2021/7/17/08a8400d-b56d-4fe5-9990-350758c250dd1626504151147-Fabindia-Women-Kurtas-4281626504150619-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14402016/2021/7/17/2a99a48e-3a73-4f82-9c4d-17dd8c72c3301626504151127-Fabindia-Women-Kurtas-4281626504150619-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14402016/2021/7/17/c5681d5f-c5a2-423a-891e-f5fbe912e5701626504151108-Fabindia-Women-Kurtas-4281626504150619-4.jpg"
+    ],
+    "color": "pink",
+    "gender": "women"
+  },
+  {
+    "brandName": "Anouk",
+    "productName": "Navy Blue Striped Rayon Straight Kurta With Pompom Lace Hem",
+    "price": 714,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Kurta",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10297647/2021/1/21/8548a7ff-1c4e-476d-9cf3-5496bc5e3c8f1611224460739-Anouk-Navy-Blue-Striped-Rayon-Straight-Kurta-With-Pompom-Lac-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10297647/2021/1/21/e5261d0a-4b48-48e5-9940-afbc80a910e51611224460722-Anouk-Navy-Blue-Striped-Rayon-Straight-Kurta-With-Pompom-Lac-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10297647/2021/1/21/e90e365a-553c-4e35-a1f3-e74dc3fd74741611224460703-Anouk-Navy-Blue-Striped-Rayon-Straight-Kurta-With-Pompom-Lac-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10297647/2021/1/21/11ad901e-ae22-4a8b-a3c9-f76403ed42591611224460685-Anouk-Navy-Blue-Striped-Rayon-Straight-Kurta-With-Pompom-Lac-4.jpg"
+    ],
+    "color": "blue",
+    "gender": "women"
+  },
+  {
+    "brandName": "ZIYAA",
+    "productName": "Floral Leafy Foil Print Kurta Set",
+    "price": 764,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Kurta",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11056866/2019/12/9/67a0d919-cbca-4d89-a8f1-6a25c9e9305c1575891613300-Round-NeckWith--34th-Sleeve-Straight-Floral-print-Crepe-Kurt-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11056866/2019/12/9/a7d1a119-eb66-4f07-903b-35eec60fbafb1575891613259-Round-NeckWith--34th-Sleeve-Straight-Floral-print-Crepe-Kurt-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11056866/2019/12/9/a3cc807f-2f65-4a5a-92f2-3c56c137f49a1575891613211-Round-NeckWith--34th-Sleeve-Straight-Floral-print-Crepe-Kurt-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11056866/2019/12/9/b796a12d-60e9-4bdf-8929-e984353baa371575891613149-Round-NeckWith--34th-Sleeve-Straight-Floral-print-Crepe-Kurt-4.jpg"
+    ],
+    "color": "green",
+    "gender": "women"
+  },
+  {
+    "brandName": "Stylum",
+    "productName": "Women Red Printed Cinched Waist Top",
+    "price": 884,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "category": "Kurta",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14949676/2021/7/27/f2a81e9f-094b-45bd-8c7a-d4ed84c5254c1627375445888StylumWomenMustardYellowEthnicMotifsYokeDesignEmpireKurtiwit1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14949676/2021/7/27/8d1ead54-ec49-4084-915e-322bd951a5b71627375446141StylumWomenMustardYellowEthnicMotifsYokeDesignEmpireKurtiwit2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14949676/2021/7/27/f740a595-ac11-4628-9b23-bf9098a16ad81627375446428StylumWomenMustardYellowEthnicMotifsYokeDesignEmpireKurtiwit3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14949676/2021/7/27/8ffa858e-3861-4f6d-b742-a601d4b137071627375446285StylumWomenMustardYellowEthnicMotifsYokeDesignEmpireKurtiwit4.jpg"
+    ],
+    "color": "yellow",
+    "gender": "women"
+  }
+]

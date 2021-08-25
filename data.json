@@ -1,0 +1,400 @@
+[
+  {
+    "brandName": "HRX",
+    "productName": "Men Yellow Printed Round Neck T-Shirt",
+    "price": 699,
+    "discount": 50,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/972c9498-3a37-4d5d-976c-4493b4d5c0021559989322793-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/c3d336e4-8c86-4434-94b2-c9b28b6dd6471559989322777-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/20153ade-f325-4613-a851-f79f8dc00c571559989322759-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/67f8fc06-3131-4ae9-a869-2b485f0aca3c1559989322742-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--4.jpg"
+    ],
+    "color": "yellow",
+    "gender": "men"
+  },
+  {
+    "brandName": "HRX",
+    "productName": "Men Green Round-Neck T-shirt Regular Fit",
+    "price": 599,
+    "discount": 50,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15001432/2021/8/3/21d71286-33a2-4d3c-8c78-774467c106521627934880040Round-neckT-shirtRegularFit1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15001432/2021/8/3/4a5db21e-6bda-4e73-b6a9-bb8002fa431d1627934879523Round-neckT-shirtRegularFit2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15001432/2021/8/3/c487d425-b809-4baa-8122-c05261905e491627934880052Round-neckT-shirtRegularFit3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15001432/2021/8/3/535acd66-33b3-4971-9219-24ac08aa6a851627934879781Round-neckT-shirtRegularFit4.jpg"
+    ],
+    "color": "green",
+    "gender": "men"
+  },
+  {
+    "brandName": "Roadster",
+    "productName": "Men Navy Blue & Black Colourblocked Round Neck T-shirt",
+    "price": 899,
+    "discount": 60,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10938628/2020/6/9/54a7f95d-df8b-4dc4-8f58-7840cc5e19931591692405709-Roadster-Men-Tshirts-9691591692404317-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10938628/2020/6/10/4d2f83df-8a8e-45a2-8c24-5ce77d43aaf81591767388907-Roadster-Men-Tshirts-8211591767388766-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10938628/2020/6/9/30c18e42-0b3c-4713-b9d4-0ce1687897ee1591692405615-Roadster-Men-Tshirts-9691591692404317-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10938628/2020/6/9/56f2f19d-e7f4-4d01-bbb7-059ec1c67cfd1591692405569-Roadster-Men-Tshirts-9691591692404317-4.jpg"
+    ],
+    "color": "blue",
+    "gender": "men"
+  },
+  {
+    "brandName": "HRX",
+    "productName": "Men Teal Blue Printed T-shirt",
+    "price": 699,
+    "discount": 50,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700871/2020/1/22/f932ae44-0fb8-4b92-b7bc-f1756253294b1579692118186-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700871/2020/1/22/5a6da9ac-d32e-4710-9b6d-569b454560931579692118120-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700871/2020/1/22/ee026dfd-53d5-431f-8f49-793d1b1a3ca91579692118057-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700871/2020/1/22/630076d1-bddd-4bd8-825a-f53a545c38481579692117944-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-4.jpg"
+    ],
+    "color": "blue",
+    "gender": "men"
+  },
+  {
+    "brandName": "Roadster",
+    "productName": "Men Sea Green & Black Brand Logo Print Cotton T-shirt",
+    "price": 799,
+    "discount": 50,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13745330/2021/8/12/3ecbb9cc-d087-47db-9402-2cce60a0da4d1628770265195-Roadster-Men-Tshirts-7921628770264633-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13745330/2021/8/12/ef85246f-b6a9-4494-878b-12bea50e35941628770265187-Roadster-Men-Tshirts-7921628770264633-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13745330/2021/8/12/321d1f20-1b44-44cc-9f29-eae6616a84561628770265178-Roadster-Men-Tshirts-7921628770264633-3.jpg"
+    ],
+    "color": "green",
+    "gender": "men"
+  },
+  {
+    "brandName": "HRX",
+    "productName": "Men White Solid Round Neck T-shirt",
+    "price": 899,
+    "discount": 60,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6555071/2018/8/17/bf9c0b36-b7d5-4e0f-be94-80dc44e8fc701534485716145-HRX-by-Hrithik-Roshan-Men-Tshirts-8941534485715943-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6555071/2018/8/17/93ec674e-c8fe-4b42-8e14-f68bce322f281534485716116-HRX-by-Hrithik-Roshan-Men-Tshirts-8941534485715943-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6555071/2018/8/17/b5662d17-8568-48c7-bccb-e3a5f0daec431534485716081-HRX-by-Hrithik-Roshan-Men-Tshirts-8941534485715943-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6555071/2018/8/17/28632223-0d42-47c5-88b5-bf3ea4c937891534485716046-HRX-by-Hrithik-Roshan-Men-Tshirts-8941534485715943-4.jpg"
+    ],
+    "color": "white",
+    "gender": "men"
+  },
+  {
+    "brandName": "HRX",
+    "productName": "Men Fluorescent Green Solid Round Neck Running T-shirt",
+    "price": 899,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7231694/2019/2/8/6b595914-1c66-4d0a-a542-9a2134ae6f391549618643915-HRX-by-Hrithik-Roshan-Men-Fluorescent-Green-Solid-Round-Neck-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7231694/2019/2/8/532fe5f8-e016-4f3e-9e62-9cfa469f35371549618643872-HRX-by-Hrithik-Roshan-Men-Fluorescent-Green-Solid-Round-Neck-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7231694/2019/2/8/ba57e375-ffb2-4df6-a206-affc7a8bd5c21549618643827-HRX-by-Hrithik-Roshan-Men-Fluorescent-Green-Solid-Round-Neck-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7231694/2019/2/8/88c517cf-1d72-4c2e-a497-ce7f9e14ae791549618643782-HRX-by-Hrithik-Roshan-Men-Fluorescent-Green-Solid-Round-Neck-4.jpg"
+    ],
+    "color": "green",
+    "gender": "men"
+  },
+  {
+    "brandName": "Roadster",
+    "productName": "Men Teal Green & White Typography Print Cotton T-shirt",
+    "price": 699,
+    "discount": 50,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13744740/2021/8/11/6167111c-333a-4c9f-81e7-847c09118e661628677791634-Roadster-Men-Teal-Typography-Printed-T-shirt-525162867779120-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13744740/2021/8/12/b84abac0-d28e-4e5d-a14e-1bd0608c5bf61628742735957-Roadster-Men-Teal-Green--White-Typography-Print-Cotton-T-shi-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13744740/2021/8/11/4b6b0825-6db7-450c-8c69-9fa71d1ce4e21628677791598-Roadster-Men-Teal-Typography-Printed-T-shirt-525162867779120-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13744740/2021/8/11/ab749963-fd6d-4dd2-b5cb-fac27a9b5af31628677791579-Roadster-Men-Teal-Typography-Printed-T-shirt-525162867779120-4.jpg"
+    ],
+    "color": "green",
+    "gender": "men"
+  },
+  {
+    "brandName": "Roadster",
+    "productName": "Men Black Solid Round Neck T-shirt",
+    "price": 999,
+    "discount": 60,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11545114/2020/11/9/a833ec77-37ef-405d-8bd2-3ab4da2fe5851604917021688-Roadster-Men-Tshirts-4071604917019556-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11545114/2020/11/9/ab94dd71-a56a-4a99-b8c8-e93d1c597eb31604917021647-Roadster-Men-Tshirts-4071604917019556-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11545114/2020/11/9/3d20c148-5d4c-469b-8297-003153a675a61604917021602-Roadster-Men-Tshirts-4071604917019556-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11545114/2020/11/9/755ccfa5-3dc7-4f82-9601-f14488914a761604917021551-Roadster-Men-Tshirts-4071604917019556-4.jpg"
+    ],
+    "color": "black",
+    "gender": "men"
+  },
+  {
+    "brandName": "Roadster",
+    "productName": "Time Travlr Men Teal Blue Printed Round Neck T-shirt",
+    "price": 599,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2340648/2018/4/26/11524727205135-Roadster-Men-Teal-Printed-Round-Neck-T-shirt-4881524727204967-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2340648/2018/4/26/11524727205108-Roadster-Men-Teal-Printed-Round-Neck-T-shirt-4881524727204967-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2340648/2018/4/26/11524727205090-Roadster-Men-Teal-Printed-Round-Neck-T-shirt-4881524727204967-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2340648/2018/4/26/11524727205070-Roadster-Men-Teal-Printed-Round-Neck-T-shirt-4881524727204967-4.jpg"
+    ],
+    "color": "blue",
+    "gender": "men"
+  },
+  {
+    "brandName": "Puma",
+    "productName": "Men Orange Brand Logo Printed Renaissance Cat T-shirt",
+    "price": 1299,
+    "discount": 20,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14284638/2021/7/14/9234b6b3-2cf6-4fb0-8a14-619da43b75a41626253572588-Puma-Men-Tshirts-2731626253572098-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14284638/2021/7/14/2d83d6f7-71f2-493e-b28f-da7f234219a71626253572579-Puma-Men-Tshirts-2731626253572098-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14284638/2021/7/14/e78fdb6f-bd97-4166-8b2b-8d00608bdcd11626253572572-Puma-Men-Tshirts-2731626253572098-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14284638/2021/7/14/b6289ce9-0b3e-4be4-98ca-918b7407ee331626253572564-Puma-Men-Tshirts-2731626253572098-4.jpg"
+    ],
+    "color": "orange",
+    "gender": "men"
+  },
+  {
+    "brandName": "Puma",
+    "productName": "Men Navy Blue & White Modern dryCELL Solid Round Neck T-shirt",
+    "price": 1799,
+    "discount": 55,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12352656/2020/10/1/57c2ac9f-e2be-46ea-bdb9-f5e30e6baba71601525039274-Puma-Men-Navy-Blue--White-Modern-dryCELL-Solid-Round-Neck-T--1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12352656/2020/10/1/7b12e619-7ab3-4964-a371-967f6456b98c1601525039212-Puma-Men-Navy-Blue--White-Modern-dryCELL-Solid-Round-Neck-T--2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12352656/2020/10/1/5baea933-090f-4cd5-9d2a-4e820f84b9331601525039149-Puma-Men-Navy-Blue--White-Modern-dryCELL-Solid-Round-Neck-T--3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12352656/2020/10/1/fac3407c-43ba-4ff7-8d20-e566d43666341601525039087-Puma-Men-Navy-Blue--White-Modern-dryCELL-Solid-Round-Neck-T--4.jpg"
+    ],
+    "color": "blue",
+    "gender": "men"
+  },
+  {
+    "brandName": "Calvin Klein Jeans",
+    "productName": "Men Black Printed Back Brand Logo T-shirt",
+    "price": 3599,
+    "discount": 0,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590670/2021/8/13/42fd9c0c-4f64-4a18-9fff-dfab1ac5c3761628848972252-Calvin-Klein-Jeans-Men-Tshirts-9331628848971726-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590670/2021/8/13/c19b99e3-1b23-4835-9edd-3a916a38e7a21628848972245-Calvin-Klein-Jeans-Men-Tshirts-9331628848971726-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590670/2021/8/13/10bcbc16-9dab-4678-a469-14da0375e5bf1628848972237-Calvin-Klein-Jeans-Men-Tshirts-9331628848971726-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590670/2021/8/13/cf153078-db64-4d90-bb34-8ba9b66d63ce1628848972229-Calvin-Klein-Jeans-Men-Tshirts-9331628848971726-4.jpg"
+    ],
+    "color": "black",
+    "gender": "men"
+  },
+  {
+    "brandName": "Puma",
+    "productName": "Men Black NEYMAR JR CREATIVITY Printed Round Neck T-shirt",
+    "price": 1999,
+    "discount": 0,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13802732/2021/3/26/c7ce3aeb-5964-41d6-8e45-76a4b8fa0b791616748231211-Puma-Men-Tshirts-3741616748230004-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13802732/2021/3/26/cb9c99c5-a2ec-4abb-8298-c073f11c59d61616748231191-Puma-Men-Tshirts-3741616748230004-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13802732/2021/3/26/73994b69-28a9-47d7-8a09-53a43215e4c51616748231169-Puma-Men-Tshirts-3741616748230004-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13802732/2021/3/26/aaf944ed-8512-40d6-8b5e-2e78c5ffe7171616748231150-Puma-Men-Tshirts-3741616748230004-4.jpg"
+    ],
+    "color": "black",
+    "gender": "men"
+  },
+  {
+    "brandName": "Puma",
+    "productName": "Men Red & Black Colourblocked Slim Fit RCB Take Down Jersey V-Neck T-shirt",
+    "price": 1299,
+    "discount": 0,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13971574/2021/4/6/834f746e-b578-447b-b0fd-6cb2766640d81617705069948-Puma-Men-Tshirts-2901617705069081-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13971574/2021/4/6/b4c86d74-8064-45c3-bbd9-79d27816bd651617705069924-Puma-Men-Tshirts-2901617705069081-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13971574/2021/4/6/98c28a86-b105-4e3c-b3fa-ca8f32aa69081617705069900-Puma-Men-Tshirts-2901617705069081-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13971574/2021/4/6/dd068673-6272-4d9f-adf8-90e0e7a843a21617705069873-Puma-Men-Tshirts-2901617705069081-4.jpg"
+    ],
+    "color": "red",
+    "gender": "men"
+  },
+  {
+    "brandName": "WROGN",
+    "productName": "Men Grey Solid Brand Logo Slim Fit Pure Cotton T-shirt",
+    "price": 1399,
+    "discount": 40,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13674658/2021/7/2/551ff5ed-5bb5-4730-9f6a-1e28c49d6b191625205046571-WROGN-Men-Tshirts-6601625205046085-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13674658/2021/7/2/be8ad916-381e-4815-9d8a-0b139c0c0dad1625205046562-WROGN-Men-Tshirts-6601625205046085-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13674658/2021/7/2/ddb13c8d-96f0-48db-baef-ec0e230146001625205046553-WROGN-Men-Tshirts-6601625205046085-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13674658/2021/7/2/6e1a1827-6865-4060-b98c-57487dc45fef1625205046545-WROGN-Men-Tshirts-6601625205046085-4.jpg"
+    ],
+    "color": "grey",
+    "gender": "men"
+  },
+  {
+    "brandName": "Puma",
+    "productName": "Men Red Graphic II Solid Polo T-Shirt",
+    "price": 1499,
+    "discount": 30,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13887644/2021/5/25/d48343fc-8b39-40f4-bbdc-b0b0782daf351621929987802NikeDri-FITSwooshWomensMedium-SupportNon-PaddedSportsBraTshi1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13887644/2021/5/25/774f8d89-00cd-4f3c-9c0e-a99fe83bb1181621929987849NikeDri-FITSwooshWomensMedium-SupportNon-PaddedSportsBraTshi2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13887644/2021/5/25/107ec211-67b1-4c80-8a32-680778dc07f31621929987897NikeDri-FITSwooshWomensMedium-SupportNon-PaddedSportsBraTshi3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13887644/2021/5/25/a1a3309e-5b68-4156-83fd-9abe558a624b1621929987946NikeDri-FITSwooshWomensMedium-SupportNon-PaddedSportsBraTshi4.jpg"
+    ],
+    "color": "red",
+    "gender": "men"
+  },
+  {
+    "brandName": "WROGN",
+    "productName": "Men Teal Blue Printed Round Neck T-shirt",
+    "price": 1199,
+    "discount": 45,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2033074/2018/10/3/8aaa6261-4c39-4ed3-884a-645cc0319b921538561391146-WROGN-Men-Teal-Blue-Printed-Round-Neck-T-shirt-5115385613887-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2033074/2018/10/3/2e70b0f5-140d-48a4-9b90-90d846eeffd81538561391130-WROGN-Men-Teal-Blue-Printed-Round-Neck-T-shirt-5115385613887-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2033074/2018/10/3/cf712dab-92bc-43b3-9d68-fc72e726e3a61538561391112-WROGN-Men-Teal-Blue-Printed-Round-Neck-T-shirt-5115385613887-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2033074/2018/10/3/214b1fad-0235-4cc6-8fcc-820affaad1e41538561391090-WROGN-Men-Teal-Blue-Printed-Round-Neck-T-shirt-5115385613887-4.jpg"
+    ],
+    "color": "blue",
+    "gender": "men"
+  },
+  {
+    "brandName": "Calvin Klein Jeans",
+    "productName": "Men White Brand Logo Printed T-shirt",
+    "price": 3599,
+    "discount": 0,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590666/2021/7/15/f622893a-efaf-48f3-8059-4aa5e2565eb11626333232383-Calvin-Klein-Jeans-Men-Tshirts-3841626333231858-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590666/2021/7/15/ed6c1a3f-0ed5-4c32-b1ed-ced88d6ee9e81626333232375-Calvin-Klein-Jeans-Men-Tshirts-3841626333231858-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590666/2021/7/15/80d09b51-8408-43da-b55b-8856ffc7c66f1626333232366-Calvin-Klein-Jeans-Men-Tshirts-3841626333231858-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590666/2021/7/15/d7919b7f-4a01-49ed-befa-0812829a26a71626333232358-Calvin-Klein-Jeans-Men-Tshirts-3841626333231858-4.jpg"
+    ],
+    "color": "white",
+    "gender": "men"
+  },
+  {
+    "brandName": "WROGN",
+    "productName": "Men Black Solid Slim Fit T-shirt",
+    "price": 1399,
+    "discount": 50,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2339490/2019/10/24/f7f8eed6-c0fe-4a1b-998e-f26b3dd2be7c1571915382775-WROGN-Men-Black-Solid-Slim-Fit-T-shirt-6291571915381757-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2339490/2019/10/24/43856062-990a-4062-99ab-eaeeaf7f89b01571915382709-WROGN-Men-Black-Solid-Slim-Fit-T-shirt-6291571915381757-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2339490/2019/10/24/1403ee53-2497-4315-b32d-fe022d800a9b1571915382651-WROGN-Men-Black-Solid-Slim-Fit-T-shirt-6291571915381757-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2339490/2019/10/24/d8ffd934-7e74-4e71-bebc-7938c27515a31571915382548-WROGN-Men-Black-Solid-Slim-Fit-T-shirt-6291571915381757-4.jpg"
+    ],
+    "color": "black",
+    "gender": "men"
+  },
+  {
+    "brandName": "WROGN",
+    "productName": "Men Yellow Solid Slim Fit Round Neck T-shirt",
+    "price": 599,
+    "discount": 40,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12328892/2020/9/14/922bb4f0-10cc-497a-9e45-7da9e42a35ad1600060537030-WROGN-Men-Tshirts-3441600060535229-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12328892/2020/9/14/ba92d2c3-1862-4529-a9c6-5d23f3fac5751600060536969-WROGN-Men-Tshirts-3441600060535229-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12328892/2020/9/14/02980ec5-69c9-482b-b33b-ec1b45352f161600060536906-WROGN-Men-Tshirts-3441600060535229-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12328892/2020/9/14/9860df4c-dbb6-4546-b211-281c8a28323d1600060536833-WROGN-Men-Tshirts-3441600060535229-4.jpg"
+    ],
+    "color": "yellow",
+    "gender": "men"
+  },
+  {
+    "brandName": "Calvin Klein Jeans",
+    "productName": "Men Maroon Brand Logo Printed Organic Cotton T-shirt",
+    "price": 2599,
+    "discount": 0,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590762/2021/8/12/cb288bae-2b19-434c-a1d7-1ed9abccf8d41628760908722-Calvin-Klein-Jeans-Men-Tshirts-3171628760908178-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590762/2021/8/12/9ffc943c-bcb3-459a-9fa9-a7a151802bf01628760908714-Calvin-Klein-Jeans-Men-Tshirts-3171628760908178-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590762/2021/8/12/c42ca2b2-b8f1-4905-bfea-45e3bcd5c06a1628760908704-Calvin-Klein-Jeans-Men-Tshirts-3171628760908178-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590762/2021/8/12/afeafd32-b9f8-442a-9f05-d40f86b2d5a11628760908696-Calvin-Klein-Jeans-Men-Tshirts-3171628760908178-4.jpg"
+    ],
+    "color": "maroon",
+    "gender": "men"
+  },
+  {
+    "brandName": "WROGN",
+    "productName": "Men Off-White Slim Fit Solid Polo Collar T-shirt",
+    "price": 1599,
+    "discount": 50,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8426429/2019/1/24/25183cd3-3822-4ec9-9bd6-c53643d5b9c21548329063249-WROGN-Men-Off-White-Solid-Polo-Collar-T-shirt-76315483290616-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8426429/2019/1/24/d9b88a43-6e4e-4564-8a73-0535c3f4e0341548329063225-WROGN-Men-Off-White-Solid-Polo-Collar-T-shirt-76315483290616-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8426429/2019/1/24/b825e7a1-493f-4247-9fbd-8207bf2e623f1548329063192-WROGN-Men-Off-White-Solid-Polo-Collar-T-shirt-76315483290616-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8426429/2019/1/24/10ad2904-5077-4e6f-8fdb-7974c17f1e581548329063164-WROGN-Men-Off-White-Solid-Polo-Collar-T-shirt-76315483290616-4.jpg"
+    ],
+    "color": "white",
+    "gender": "men"
+  },
+  {
+    "brandName": "Calvin Klein Jeans",
+    "productName": "Men Red & Grey Brand Logo Printed T-shirt",
+    "price": 2999,
+    "discount": 0,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14830690/2021/7/27/c0f6cc43-bb26-4649-a57b-fe9ad491ba441627381485829-Calvin-Klein-Jeans-Men-Tshirts-9921627381485543-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14830690/2021/7/27/04b6b724-2c90-486d-8cb8-3ed599407d4e1627381485821-Calvin-Klein-Jeans-Men-Tshirts-9921627381485543-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14830690/2021/7/27/4514754e-f2db-408b-bdc0-f561cbca18281627381485815-Calvin-Klein-Jeans-Men-Tshirts-9921627381485543-3.jpg"
+    ],
+    "color": "red",
+    "gender": "men"
+  },
+  {
+    "brandName": "Calvin Klein Jeans",
+    "productName": "Men Black Brand Logo Printed T-shirt",
+    "price": 2599,
+    "discount": 0,
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "tshirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590688/2021/7/8/5aa228c5-6bd9-4772-85c2-f70d7bab32e11625743442946-Calvin-Klein-Jeans-Men-Tshirts-6541625743442322-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590688/2021/7/8/2bba58ae-e4e1-48fb-8aba-94031ca5da831625743442937-Calvin-Klein-Jeans-Men-Tshirts-6541625743442322-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590688/2021/7/8/848a5a5a-e7d5-4913-ba16-75eabd28f3061625743442926-Calvin-Klein-Jeans-Men-Tshirts-6541625743442322-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14590688/2021/7/8/0c2bb197-ef09-4c4f-aa48-7a0b00cdfdd31625743442916-Calvin-Klein-Jeans-Men-Tshirts-6541625743442322-4.jpg"
+    ],
+    "color": "black",
+    "gender": "men"
+  }
+]

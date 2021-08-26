@@ -324,7 +324,7 @@
             </div>
             <div id="products-right">
               <% products.map((el) => { %>
-              <a class="each-product" href="moda.ejs"
+              <a class="each-product" href=`http://localhost:3000/moda/${el._id}`
                 ><div>
                   <img src="<%= el.images[0] %>" alt="" />
                   <div class="brand"><%= el.brandName %></div>

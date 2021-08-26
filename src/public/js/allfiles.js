@@ -31,3 +31,7 @@ function priceFilter(x, y) {
 function colorFilter(x) {
   window.location.href = `http://localhost:3000/products/color/${x}/tshirt/`;
 }
+
+function nextPage(id) {
+  window.location.href = `http://localhost:3000/moda/${id}`
+}

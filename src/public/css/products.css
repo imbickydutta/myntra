@@ -257,6 +257,11 @@ select:focus {
 }
 .each-product img {
   width: 100%;
+  transition: all 0.3s ease;
+}
+
+.each-product img:hover {
+  transform: scale(1.03);
 }
 
 .each-product {

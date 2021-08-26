@@ -382,15 +382,17 @@ function sort() {
 sort();
 
 function filter(x) {
-  let products = JSON.parse(localStorage.getItem("products"));
 
-  products = products.filter(function (el) {
-    return el.brand_name == x;
-  });
+  window.location.href = `http://localhost:3000/products/type/tshirt/${x}`;
+  // let products = JSON.parse(localStorage.getItem("products"));
 
-  let catalogue = document.getElementById("products-right");
-  catalogue.innerHTML = null;
-  showProducts(products);
+  // products = products.filter(function (el) {
+  //   return el.brand_name == x;
+  // });
+
+  // let catalogue = document.getElementById("products-right");
+  // catalogue.innerHTML = null;
+  // showProducts(products);
 }
 
 function priceFilter(x, y) {

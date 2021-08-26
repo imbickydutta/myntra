@@ -6,7 +6,6 @@ const router = express.Router();
 
 router.get("/", async (req, res) => {
   const products = await Product.find({}).lean();
-  //   res.json(products);
   return res.render("ejs/products", {
     products: products,
   });

@@ -35,3 +35,7 @@ function colorFilter(x) {
 function nextPage(id) {
   window.location.href = `http://localhost:3000/moda/${id}`
 }
+
+function changePage(x) {
+  window.location.href = `http://localhost:3000/moda/${x}`
+}

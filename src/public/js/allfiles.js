@@ -291,17 +291,17 @@
 //   },
 // ];
 
-if (JSON.parse(localStorage.getItem("products")) == null) {
-  localStorage.setItem("products", JSON.stringify(products));
-}
+// if (JSON.parse(localStorage.getItem("products")) == null) {
+//   localStorage.setItem("products", JSON.stringify(products));
+// }
 
-function showProducts(d) {
-  let products = d;
+// function showProducts(d) {
+//   let products = d;
 
-  products.forEach(function (el) {
-    appendProduct(el);
-  });
-}
+//   products.forEach(function (el) {
+//     appendProduct(el);
+//   });
+// }
 
 // function appendProduct(el) {
 //   let catalogue = document.getElementById("products-right");
@@ -333,7 +333,7 @@ function showProducts(d) {
 //   catalogue.append(div);
 // }
 
-showProducts(JSON.parse(localStorage.getItem("products")));
+// showProducts(JSON.parse(localStorage.getItem("products")));
 
 function sort() {
   let menu = document.getElementById("type");
@@ -341,41 +341,13 @@ function sort() {
 
   function generateData(event) {
     if (menu.value == "1") {
-      let products = JSON.parse(localStorage.getItem("products"));
-      let catalogue = document.getElementById("products-right");
-      catalogue.innerHTML = null;
-
-      products = products.sort(function (a, b) {
-        return b.price - a.price;
-      });
-
-      showProducts(products);
+      window.location.href = `http://localhost:3000/products/sorthtol/tshirt/`;
     } else if (menu.value == "2") {
-      let products = JSON.parse(localStorage.getItem("products"));
-      let catalogue = document.getElementById("products-right");
-      catalogue.innerHTML = null;
-
-      products = products.sort(function (a, b) {
-        return a.price - b.price;
-      });
-
-      showProducts(products);
+      window.location.href = `http://localhost:3000/products/sortltoh/tshirt/`;
     } else if (menu.value == "3") {
-      let products = JSON.parse(localStorage.getItem("products"));
-      let catalogue = document.getElementById("products-right");
-      catalogue.innerHTML = null;
-
-      products = products.sort(function (a, b) {
-        return b.discount - a.discount;
-      });
-
-      showProducts(products);
+      window.location.href = `http://localhost:3000/products/sort/tshirt/`;
     } else if (menu.value == "4") {
-      let products = JSON.parse(localStorage.getItem("products"));
-      let catalogue = document.getElementById("products-right");
-      catalogue.innerHTML = null;
-
-      showProducts(products);
+      window.location.href = `http://localhost:3000/products/type/tshirt/`;
     }
   }
 }
@@ -396,13 +368,19 @@ function filter(x) {
 }
 
 function priceFilter(x, y) {
-  let products = JSON.parse(localStorage.getItem("products"));
+  window.location.href = `http://localhost:3000/products/price/${x}/${y}/tshirt/`;
 
-  products = products.filter(function (el) {
-    return el.price < x && el.price > y;
-  });
+  // let products = JSON.parse(localStorage.getItem("products"));
 
-  let catalogue = document.getElementById("products-right");
-  catalogue.innerHTML = null;
-  showProducts(products);
+  // products = products.filter(function (el) {
+  //   return el.price < x && el.price > y;
+  // });
+
+  // let catalogue = document.getElementById("products-right");
+  // catalogue.innerHTML = null;
+  // showProducts(products);
+}
+
+function colorFilter(x) {
+  window.location.href = `http://localhost:3000/products/color/${x}/tshirt/`;
 }

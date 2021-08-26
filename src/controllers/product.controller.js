@@ -12,6 +12,8 @@ router.get("/", async (req, res) => {
   });
 });
 
+// Routes for Categories
+
 router.get("/type/:id", async (req, res) => {
   const products = await Product.find({ category: req.params.id }).lean();
   //   res.json(products);
@@ -28,8 +30,8 @@ router.get("/type/:cat/:id", async (req, res) => {
   });
 });
 
-router.get("/sortltoh", async (req, res) => {
-  const products = await Product.find({}).lean();
+router.get("/sortltoh/:category/", async (req, res) => {
+  const products = await Product.find({ category: req.params.category }).lean();
   //   res.json(products);
 
   products.sort(function (a, b) {
@@ -40,8 +42,20 @@ router.get("/sortltoh", async (req, res) => {
   });
 });
 
-router.get("/sorthtol", async (req, res) => {
-  const products = await Product.find({}).lean();
+router.get("/sort/:category/", async (req, res) => {
+  const products = await Product.find({ category: req.params.category }).sort({ discount: -1 }).lean();
+  //   res.json(products);
+
+  // products.sort(function (a, b) {
+  //   return (b.price * (100 - b.discount) / 100) - (a.price * (100 - a.discount) / 100)
+  // })
+  return res.render("ejs/products", {
+    products: products,
+  });
+});
+
+router.get("/sorthtol/:category/", async (req, res) => {
+  const products = await Product.find({ category: req.params.category }).lean();
   //   res.json(products);
 
   products.sort(function (a, b) {
@@ -52,12 +66,24 @@ router.get("/sorthtol", async (req, res) => {
   });
 });
 
-router.get("/color/:color", async (req, res) => {
-  const products = await Product.find({ color: req.params.color }).lean();
+router.get("/color/:color/:category", async (req, res) => {
+  const products = await Product.find({ category: req.params.category, color: req.params.color }).lean();
   //   res.json(products);
 
   return res.render("ejs/products", {
     products: products,
+  });
+});
+
+
+router.get("/price/:x/:y/:category/", async (req, res) => {
+  const products = await Product.find({ category: req.params.category }).lean();
+  //   res.json(products);
+  let newproducts = products.filter(function (el) {
+    return el.price * ((100 - el.discount) / 100) < req.params.x && el.price * ((100 - el.discount)) / 100 > req.params.y;
+  });
+  return res.render("ejs/products", {
+    products: newproducts,
   });
 });
 
@@ -67,5 +93,7 @@ router.post("/", async (req, res) => {
   const product = await Product.create(req.body);
   res.json(product);
 });
+
+
 
 module.exports = router;

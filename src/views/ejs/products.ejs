@@ -243,37 +243,67 @@
 
               <div class="filter-categories">
                 <p>Color</p>
-                <input type="checkbox" id="red" value="red" />
+                <input
+                  type="checkbox"
+                  id="red"
+                  value="red"
+                  onclick="colorFilter('red')"
+                />
                 <label for="red">
                   <span class="color"></span>
                   Red</label
                 ><br />
 
-                <input type="checkbox" id="blue" value="blue" />
+                <input
+                  type="checkbox"
+                  id="blue"
+                  value="blue"
+                  onclick="colorFilter('blue')"
+                />
                 <label for="blue"
                   ><span class="color" style="background-color: blue"></span>
                   Blue</label
                 ><br />
 
-                <input type="checkbox" id="green" value="green" />
+                <input
+                  type="checkbox"
+                  id="green"
+                  value="green"
+                  onclick="colorFilter('green')"
+                />
                 <label for="green"
                   ><span class="color" style="background-color: green"></span>
                   Green</label
                 ><br />
 
-                <input type="checkbox" id="yellow" value="yellow" />
+                <input
+                  type="checkbox"
+                  id="yellow"
+                  value="yellow"
+                  onclick="colorFilter('yellow')"
+                />
                 <label for="yellow"
                   ><span class="color" style="background-color: yellow"></span>
                   Yellow</label
                 ><br />
 
-                <input type="checkbox" id="black" value="black" />
+                <input
+                  type="checkbox"
+                  id="black"
+                  value="black"
+                  onclick="colorFilter('black')"
+                />
                 <label for="black"
                   ><span class="color" style="background-color: black"></span>
                   Black</label
                 ><br />
 
-                <input type="checkbox" id="white" value="white" />
+                <input
+                  type="checkbox"
+                  id="white"
+                  value="white"
+                  onclick="colorFilter('white')"
+                />
                 <label for="white"
                   ><span class="color" style="background-color: white"></span>
                   White</label
@@ -284,7 +314,7 @@
 
           <div class="right">
             <div class="sort">
-              <select name="type" id="type">
+              <select name="type" id="type" onChange="sort()">
                 <option selected>Sort By</option>
                 <option value="1">Price : High to Low</option>
                 <option value="2">Price : Low to High</option>

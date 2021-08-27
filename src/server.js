@@ -2,6 +2,7 @@
 const path = require("path");
 const express = require("express");
 const cors = require("cors");
+const bodyParser = require("body-parser");
 
 // Import the configration file
 const connect = require("./configs/db");
@@ -16,13 +17,15 @@ const mensControllers = require("./controllers/mens.controller");
 const modaControllers = require("./controllers/moda.controller");
 const paymentController = require("./controllers/payment.controller");
 const signinController = require("./controllers/signin.controller");
+const userController = require("./controllers/user.controller");
 
 // Create the express app using middleware
 const app = express();
 app.use(express.json());
+app.use(cors()); // to unblock CORS
+app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
 app.use("/static", express.static(path.join(__dirname, "public")));
-app.use(cors()); // to unblock CORS
 
 // Create the views part of the application
 app.set("views", path.join(__dirname, "views/"));
@@ -38,6 +41,7 @@ app.use("/mens", mensControllers);
 app.use("/moda", modaControllers);
 app.use("/payment", paymentController);
 app.use("/signin", signinController);
+app.use("/user", userController);
 
 // Listen for events
 app.listen(3000, async () => {

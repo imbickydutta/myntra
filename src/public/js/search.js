@@ -6,13 +6,19 @@ console.log(suggBox);
 
 
 suggestions = [
-    ["mens tshirts", "/type/tshirt"],
-    ["womens tops", "/type/Top"],
-    ["womens sarees", "/type/Saree"],
-    ["womens sarees", "/type/Saree"],
-    ["womens sarees", "/type/Saree"],
-    ["womens sarees", "/type/Saree"],
-    ["womens sarees", "/type/Saree"]
+    ["tshirts for men", "/type/tshirt"],
+    ["jeans for men", "/type/jeans"],
+    ["shoes for men", "/type/shoes"],
+    ["suits for men", "/type/suits"],
+    ["caps for men", "/type/caps"],
+    ["tops for women", "/type/Top"],
+    ["sarees for women", "/type/Saree"],
+    ["flats for women", "/type/Flats"],
+    ["jeans for women", "/type/Jeans"],
+    ["kurta for Women", "/type/Kurta"],
+    ["tshirts for kids", "/type/tshirtKids"],
+    ["jeans for kids", "/type/jeansKids"],
+    ["shoes for kids", "/type/shoesKids"],
 ]
 
 inputBox.onkeyup = (e) => {

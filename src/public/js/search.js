@@ -20,13 +20,9 @@ inputBox.onkeyup = (e) => {
     let userData = e.target.value; //user enetered data
     let emptyArray = [];
     if (userData) {
-        // icon.onclick = () => {
-        //     webLink = `https://www.google.com/search?q=${userData}`;
-        //     linkTag.setAttribute("href", webLink);
-        //     linkTag.click();
-        // }
+
         emptyArray = suggestions.filter((data) => {
-            //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
+            //filtering array value and user characters to lowercase and return only those words which start with user enetered chars
             return data[0].toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
         });
         emptyArray = emptyArray.map((data) => {
@@ -40,7 +36,7 @@ inputBox.onkeyup = (e) => {
         let listData;
         if (!list.length) {
             userValue = inputBox.value;
-            listData = `<li>${userValue}</li>`;
+            listData = `<a>No Search Results</a>`;
 
         } else {
             listData = list.join('');

@@ -441,6 +441,7 @@ ul {
 
 .autocom {
   position: absolute;
+  position: fixed;
   display: none;
   flex-direction: column;
   left: 44%;

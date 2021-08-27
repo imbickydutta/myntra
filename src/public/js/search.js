@@ -2,7 +2,7 @@ const searchWrapper = document.querySelector(".search-div");
 const inputBox = searchWrapper.querySelector("input");
 const suggBox = document.querySelector(".autocom");
 
-console.log(suggBox);
+
 
 
 suggestions = [
@@ -44,3 +44,10 @@ inputBox.onkeyup = (e) => {
         suggBox.innerHTML = listData;
     }
 }
+
+document.addEventListener('mouseup', function (e) {
+    var container = suggBox
+    if (!container.contains(e.target)) {
+        container.style.display = 'none';
+    }
+});

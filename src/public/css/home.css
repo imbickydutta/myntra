@@ -438,3 +438,40 @@ ul {
     width: 100%;
   }
 }
+
+.autocom {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  left: 44%;
+  background: white;
+  top: 70px;
+  z-index: 20;
+  padding: 10px 30px 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 8px 6px -6px #aaa;
+  width: 30%;
+}
+
+.autocom a {
+  /* margin-right: 20px; */
+  /* padding: 28px 17px 28px; */
+  margin-top: 10px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  /* border-bottom: none; */
+  -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
+  transition: left 0.2s ease-out, width 0.2s ease-out;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.autocom a:hover {
+  padding-left: 8px;
+  /* padding-right: -8px; */
+  color: #ff0095;
+}

@@ -30,9 +30,8 @@ function addtoCart() {
 
   // localStorage.setItem("cart", JSON.stringify(cart));
 
-  window.location.href = "login.html";
+  window.location.href = "/login";
 }
-
 
 // function appendPage() {
 //   let div = document.getElementById("content");
@@ -226,5 +225,4 @@ function addtoCart() {
 //       </div>`
 // }
 
-appendPage()
-
+appendPage();

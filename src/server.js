@@ -1,6 +1,7 @@
 // Import the important packages
 const path = require("path");
 const express = require("express");
+const cors = require("cors");
 
 // Import the configration file
 const connect = require("./configs/db");
@@ -21,12 +22,13 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use("/static", express.static(path.join(__dirname, "public")));
+app.use(cors()); // to unblock CORS
 
 // Create the views part of the application
 app.set("views", path.join(__dirname, "views/"));
 app.set("view engine", "ejs");
 
-// Create the routes
+// Create the routes or router handlers
 app.use("/products", productController);
 app.use("/home", homeController);
 app.use("/address", addressController);

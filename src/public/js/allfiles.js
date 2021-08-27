@@ -4,38 +4,34 @@ function sort() {
 
   function generateData(event) {
     if (menu.value == "1") {
-      window.location.href = `http://localhost:3000/products/sorthtol/tshirt/`;
+      window.location.href = `/products/sorthtol/tshirt/`;
     } else if (menu.value == "2") {
-      window.location.href = `http://localhost:3000/products/sortltoh/tshirt/`;
+      window.location.href = `/products/sortltoh/tshirt/`;
     } else if (menu.value == "3") {
-      window.location.href = `http://localhost:3000/products/sort/tshirt/`;
+      window.location.href = `/products/sort/tshirt/`;
     } else if (menu.value == "4") {
-      window.location.href = `http://localhost:3000/products/type/tshirt/`;
+      window.location.href = `/products/type/tshirt/`;
     }
   }
 }
 sort();
 
 function filter(x) {
-
-  window.location.href = `http://localhost:3000/products/type/tshirt/${x}`;
-
+  window.location.href = `/products/type/tshirt/${x}`;
 }
 
 function priceFilter(x, y) {
-  window.location.href = `http://localhost:3000/products/price/${x}/${y}/tshirt/`;
-
-
+  window.location.href = `/products/price/${x}/${y}/tshirt/`;
 }
 
 function colorFilter(x) {
-  window.location.href = `http://localhost:3000/products/color/${x}/tshirt/`;
+  window.location.href = `/products/color/${x}/tshirt/`;
 }
 
 function nextPage(id) {
-  window.location.href = `http://localhost:3000/moda/${id}`
+  window.location.href = `/moda/${id}`;
 }
 
 function changePage(x) {
-  window.location.href = `http://localhost:3000/moda/${x}`
+  window.location.href = `/moda/${x}`;
 }

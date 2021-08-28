@@ -127,7 +127,7 @@
       }),
     }).then((res) => res.json());
     if (result.status === "ok") {
-      localStorage.setItem("token", result.data);
+      localStorage.setItem("token", JSON.stringify(result.data));
 
       window.location.href = "/home";
       // alert("success");

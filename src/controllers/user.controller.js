@@ -28,7 +28,18 @@ router.post("/login", async (req, res) => {
       { id: user._id, username: user.username },
       JWT_SECRET
     );
-    return res.json({ status: "ok", data: token });
+    const userUpdate = await User.findByIdAndUpdate(
+      user._id,
+      { active: true },
+      {
+        new: true,
+      }
+    ).lean();
+
+    const userInfo = jwt.verify(token, JWT_SECRET);
+
+    // localStorage.setItem("token", token);
+    return res.json({ status: "ok", data: userInfo });
 
     // req.session.user = user;
     // res.redirect("/");

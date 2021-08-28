@@ -20,21 +20,20 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    //     bagItems: [
-    //       {
-    //         productId: { type: mongoose.Schema.Types.ObjectId, ref: "product" },
-    //         quantity: { type: Number, default: 1 },
-    //         // price: { type: Number, default: 0 },
-    //       },
-    //     ],
-    //     wishListItems: [
-    //       {
-    //         productId: { type: mongoose.Schema.Types.ObjectId, ref: "product" },
-    //         // price: { type: Number, default: 0 },
-    //       },
-    //     ],
-    //     active: { type: Boolean, default: false },
-    //   },
+    bagItems: [
+      {
+        productId: { type: mongoose.Schema.Types.ObjectId, ref: "product" },
+        quantity: { type: Number, default: 1 },
+        // price: { type: Number, default: 0 },
+      },
+    ],
+    wishListItems: [
+      {
+        productId: { type: mongoose.Schema.Types.ObjectId, ref: "product" },
+        // price: { type: Number, default: 0 },
+      },
+    ],
+    active: { type: Boolean, default: false },
   },
   {
     versionKey: false,

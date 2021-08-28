@@ -144,3 +144,25 @@ function dropDown5() {
 }
 dropDown5();
 
+function dropDown6() {
+    let content = document.querySelector(".dropdown-content6");
+
+    content.addEventListener("mouseover", function () {
+        let menu = document.querySelector(".dropdown-menu6");
+        menu.style.display = "block";
+    });
+
+    let menu = document.querySelector(".dropdown-menu6");
+    menu.addEventListener("mouseover", function () {
+        menu.style.display = "block";
+        menu.addEventListener("mouseout", function () {
+            menu.style.display = "none";
+        });
+    });
+
+    content.addEventListener("mouseout", function () {
+        let menu = document.querySelector(".dropdown-menu6");
+        menu.style.display = "none";
+    });
+}
+dropDown6();

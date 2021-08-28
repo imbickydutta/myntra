@@ -144,3 +144,16 @@ function dropDown5() {
 }
 dropDown5();
 
+function bagPage() {
+    let user = JSON.parse(localStorage.getItem("token"))
+
+    if (user == null || user == undefined) {
+        window.location.href = '/user/login'
+        return alert("Please Login First")
+    }
+    let userId = user.id;
+
+
+
+    window.location.href = `/bag/${userId}`
+}

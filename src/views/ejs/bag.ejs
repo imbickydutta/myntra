@@ -26,23 +26,25 @@
                     <p class = "child2"><b style = "color: black;">Apply Coupons</b></p>
                     <button class = "child3">APPLY</button>
                     <hr class = "child4">
-                    <p class = "child5">PRICE DETAILS(1 Item)</p>
+                    <p class = "child5">PRICE DETAILS (<%= quantity %> Item)</p>
                     <p class = "child6">Total MRP</p>
-                    <p class = "child7">Rs. 649</p>
+                    <p class = "child7">Rs. <%= total + dis %></p>
                     <p class = "child8">Discount on MRP</p>
-                    <p class = "child9">- Rs. 228</p>
+                    <p class = "child9">- Rs. <%= dis %></p>
                     <p class = "child10">Coupon Discount</p>
                     <button class = "child11">Apply Coupon</button>
                     <p class = "child12">Convenience Fee <b style = "color: #ff3f6c;;">Know More</b></p>
-                    <p class = "child13"><s>Rs99</s>Free</p>
+                    <p class = "child13"><s>Rs99 </s> Free</p>
                     <hr class = "child14">
                     <p class = "child15">Total Amount</p>
-                    <p class = "child16">Rs. 421</p>
+                    <p class = "child16">Rs. <%= total %></p>
                     <button class = "child17" onclick="showAddressPage()">PLACE ORDER</button>
 
                 </div>
             </div>
+
                 
+
                 
                 
     </div>
@@ -61,18 +63,22 @@
                     <button onclick="showMore()" id="myBtn">Show More</button>
                 </div>
                 
+
                 <div class = "total">
-                    <h3 style = "float: left; font-size: larger; color: black; font-weight: 700;">My Shopping Bag(1 item)</h3>
-                    <h3 style = "float: right; font-size: larger; color: black; font-weight: 700;">Total: Rs. 421</h3>
+                    <h3 style = "float: left; font-size: larger; color: black; font-weight: 700;">My Shopping Bag (<%= quantity %> item)</h3>
+                    <h3 style = "float: right; font-size: larger; color: black; font-weight: 700;">Total: Rs. <%= total %></h3>
                 </div>
                 <br><br><br>
+
+                <% bag.map((pro) => { %>
                 <div class = "par">
                     <div id = "addImages">
-                        
-                        <img id = "img2" src = "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2378362/2018/6/9/270e0a7e-365b-4640-9433-b269c60bf3061528527188563-Moda-Rapido-Men-Maroon-Printed-Round-Neck-T-shirt-3811528527-1.jpg"/>
+
+                        <img id = "img2" src = "<%= pro[0].images[0] %>"/>
                         <div class = "child">
-                            <p class = "p">Moda Rapido<br>
-                            Men Maroon Printed Round Neck T-shirt<h5>Sold By : Vision Star</h5></p>
+                            <p class = "p"><%=pro[0].brandName%><br>
+                           <%= pro.productName %>
+                           <h5>Sold By : Vision Star</h5></p>
                             <select name="size" id="size">
                                 <option value="SIZE:L">SIZE: L</option>
                                 <option value="SIZE:M">SIZE: M</option>
@@ -80,7 +86,8 @@
                                 <option value="SIZE:Xl">SIZE: XL</option>
                             </select>
                             <select name="quantity" id="quantity">
-                                <option value="1">Qty: 1</option>
+                                <option value="<%= pro[1] %>"><%= pro[1] %></option>
+                                <option value="10">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -89,18 +96,24 @@
                                 <option value="7">7</option>
                                 <option value="8">8</option>
                                 <option value="9">9</option>
-                                <option value="10">10</option>
+                                
                             </select>
-                            <h3>Discount: 35%</h3>
+                            <h3>Discount: <%=pro[0].discount%> %</h3>
                             <h6 style = "color: cornflowerblue;">Delivery By 28 JUL 2021</h6>
-                            
+
                         </div>
                         <div>
-                            <p id = "discount"><s>Rs649</s><br>Rs. 421</p>
+                            <p id = "discount"><s>Rs. <%=
+                              pro[0].price * pro[1]
+                            %></s><br>Rs. <%=(Math.ceil(
+    (pro[0].price * (100 - pro[0].discount)) / 100) * pro[1]
+  )%></p>
                         </div>
-                        
                     </div>
                 </div>
+                <% }) %>
+
+
                
         </div>             
         <hr class = "horizontal">

@@ -123,7 +123,7 @@
           <div class="circles">XXL</div>
         </div>
         <div class="newdiv">
-          <button class="cartbtn" onclick="addtoCart()">
+          <button class="cartbtn" onclick="addtoCart('<%=el._id %>')">
             <img src="https://www.svgrepo.com/show/17522/bag.svg" />ADD TO BAG
           </button>
           <button class="wishbtn" onclick="addtoWishList()">
@@ -264,4 +264,24 @@
 </html>
 
 <script src="/static/js/moda.js"></script>
-<script></script>
+
+<script>
+  const userObj = JSON.parse(localStorage.getItem("token"));
+  const userId = userObj.id;
+  console.log(userId);
+
+  async function addtoCart(prodId) {
+    console.log(prodId);
+    const result = await fetch("/bag/addtoCart", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        userId,
+        prodId,
+      }),
+    }).then((res) => res.json());
+    alert("Item Successfully Added to Bag");
+  }
+</script>

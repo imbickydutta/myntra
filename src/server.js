@@ -9,6 +9,8 @@ const connect = require("./configs/db");
 
 // Import the controllers
 const productController = require("./controllers/product.controller");
+const productController2 = require("./controllers/product2.controller");
+
 const homeController = require("./controllers/home.controller");
 const addressController = require("./controllers/address.controller");
 const bagController = require("./controllers/bag.controller");
@@ -18,6 +20,7 @@ const modaControllers = require("./controllers/moda.controller");
 const paymentController = require("./controllers/payment.controller");
 const signinController = require("./controllers/signin.controller");
 const userController = require("./controllers/user.controller");
+
 
 // Create the express app using middleware
 const app = express();
@@ -33,6 +36,8 @@ app.set("view engine", "ejs");
 
 // Create the routes or router handlers
 app.use("/products", productController);
+app.use("/products2", productController2);
+
 app.use("/home", homeController);
 app.use("/address", addressController);
 app.use("/bag", bagController);

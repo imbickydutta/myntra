@@ -120,13 +120,17 @@
           <div class="circles">M</div>
           <div class="circles">L</div>
           <div class="circles">XL</div>
+<<<<<<< HEAD
           <div class="circles">XXL</div> -->
           <% for(let i = 0; i < el.sizes.length; i++) { %>
             <div class="circles"><%=el.sizes[i]%></div>
             <% } %>
+=======
+          <div class="circles">XXL</div>
+>>>>>>> 19fd71c722da5c5472da681b4db54034084b7c76
         </div>
         <div class="newdiv">
-          <button class="cartbtn" onclick="addtoCart()">
+          <button class="cartbtn" onclick="addtoCart('<%=el._id %>')">
             <img src="https://www.svgrepo.com/show/17522/bag.svg" />ADD TO BAG
           </button>
           <button class="wishbtn" onclick="addtoWishList()">
@@ -267,8 +271,24 @@
 </html>
 
 <script src="/static/js/moda.js"></script>
+
 <script>
-  function addtoCart(item) {
-    window.location.href = "/login/";
+  const userObj = JSON.parse(localStorage.getItem("token"));
+  const userId = userObj.id;
+  console.log(userId);
+
+  async function addtoCart(prodId) {
+    console.log(prodId);
+    const result = await fetch("/bag/addtoCart", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        userId,
+        prodId,
+      }),
+    }).then((res) => res.json());
+    alert("Item Successfully Added to Bag");
   }
 </script>

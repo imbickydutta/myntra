@@ -52,7 +52,7 @@
         </div>
 
         <div class="nav-last">
-          <div class="dropdown-content6 dropdown-content">
+          <div>
             <a href="">
               <img
                 id="svg"
@@ -144,16 +144,6 @@
         </ul>
       </div>
 
-      <div class="dropdown-menu6 dropdown-menu">
-        <ul>
-          <li><a href="/signin">LogIn</a></li>
-          <li><a href="/bag">Bag</a></li>
-          <li><a href="#">Wishlist</a></li>
-          <li><a href="#">xxxx</a></li>
-          <li><a href="#">xxxx</a></li>
-        </ul>
-      </div>
-
       <!-- content -->
       <div class="content">
         <div class="midsize">Home / <span>Casual Shirts For Men</span></div>
@@ -172,42 +162,42 @@
                   type="checkbox"
                   id="adidas"
                   value="adidas"
-                  onclick="filter('Roadster', 'tshirt')"
+                  onclick="filter('Anouk', 'women')"
                 />
-                <label for="adidas">Roadster</label><br />
+                <label for="adidas">Anouk</label><br />
                 <input
                   type="checkbox"
                   id="puma"
                   value="puma"
-                  onclick="filter('Puma', 'tshirt')"
+                  onclick="filter('Saree mall', 'women')"
                 />
-                <label for="puma">Puma</label><br />
+                <label for="puma">Saree mall</label><br />
                 <input
                   type="checkbox"
                   id="HRX"
                   value="HRX"
-                  onclick="filter('HRX', 'tshirt')"
+                  onclick="filter('HRX', 'women')"
                 />
                 <label for="HRX">HRX</label><br />
                 <input
                   type="checkbox"
                   id="wrogn"
                   value="wrogn"
-                  onclick="filter('WROGN', 'tshirt')"
+                  onclick="filter('WROGN', 'women')"
                 />
                 <label for="wrogn">Wrogn</label><br />
                 <input
                   type="checkbox"
                   id="levis"
                   value="levis"
-                  onclick="filter('Calvin Klein Jeans', 'tshirt')"
+                  onclick="filter('Calvin Klein Jeans', 'women')"
                 />
                 <label for="levis">Calvin Klein Jeans</label><br />
                 <input
                   type="checkbox"
                   id="tommy"
                   value="tommy"
-                  onclick="filter('Tommy Hilfiger', 'tshirt')"
+                  onclick="filter('Tommy Hilfiger', 'women')"
                 />
                 <label for="tommy">Tommy Hilfiger</label><br />
               </div>
@@ -218,7 +208,7 @@
                   type="checkbox"
                   id="500"
                   value="500"
-                  onclick="priceFilter(500, 0, 'tshirt')"
+                  onclick="priceFilter(500, 0)"
                 />
                 <label for="500">Below 500</label><br />
 
@@ -226,28 +216,28 @@
                   type="checkbox"
                   id="1000"
                   value="1000"
-                  onclick="priceFilter(1000, 500, 'tshirt')"
+                  onclick="priceFilter(1000, 500)"
                 />
                 <label for="1000">Rs.500 to Rs.1000</label><br />
                 <input
                   type="checkbox"
                   id="1500"
                   value="1500"
-                  onclick="priceFilter(1500, 1000, 'tshirt')"
+                  onclick="priceFilter(1500, 1000)"
                 />
                 <label for="1500">Rs.1000 to Rs.1500</label><br />
                 <input
                   type="checkbox"
                   id="2000"
                   value="2000"
-                  onclick="priceFilter(2000, 1500, 'tshirt')"
+                  onclick="priceFilter(2000, 1500)"
                 />
                 <label for="2000">Rs.1500 to Rs.2000</label><br />
                 <input
                   type="checkbox"
                   id="2000+"
                   value="2000+"
-                  onclick="priceFilter(10000, 2000, 'tshirt')"
+                  onclick="priceFilter(10000, 2000)"
                 />
                 <label for="2000+">Above Rs.2000</label><br />
               </div>
@@ -258,7 +248,7 @@
                   type="checkbox"
                   id="red"
                   value="red"
-                  onclick="colorFilter('red', 'tshirt')"
+                  onclick="colorFilter('red')"
                 />
                 <label for="red">
                   <span class="color"></span>
@@ -269,7 +259,7 @@
                   type="checkbox"
                   id="blue"
                   value="blue"
-                  onclick="colorFilter('blue', 'tshirt')"
+                  onclick="colorFilter('blue')"
                 />
                 <label for="blue"
                   ><span class="color" style="background-color: blue"></span>
@@ -280,7 +270,7 @@
                   type="checkbox"
                   id="green"
                   value="green"
-                  onclick="colorFilter('green', 'tshirt')"
+                  onclick="colorFilter('green')"
                 />
                 <label for="green"
                   ><span class="color" style="background-color: green"></span>
@@ -291,7 +281,7 @@
                   type="checkbox"
                   id="yellow"
                   value="yellow"
-                  onclick="colorFilter('yellow', 'tshirt')"
+                  onclick="colorFilter('yellow')"
                 />
                 <label for="yellow"
                   ><span class="color" style="background-color: yellow"></span>
@@ -302,7 +292,7 @@
                   type="checkbox"
                   id="black"
                   value="black"
-                  onclick="colorFilter('black', 'tshirt')"
+                  onclick="colorFilter('black')"
                 />
                 <label for="black"
                   ><span class="color" style="background-color: black"></span>
@@ -313,7 +303,7 @@
                   type="checkbox"
                   id="white"
                   value="white"
-                  onclick="colorFilter('white', 'tshirt')"
+                  onclick="colorFilter('white')"
                 />
                 <label for="white"
                   ><span class="color" style="background-color: white"></span>
@@ -325,7 +315,7 @@
 
           <div class="right">
             <div class="sort">
-              <select name="type" id="type" onChange="sort('tshirt')">
+              <select name="type" id="type" onChange="sort('Women')">
                 <option selected>Sort By</option>
                 <option value="1">Price : High to Low</option>
                 <option value="2">Price : Low to High</option>

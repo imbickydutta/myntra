@@ -144,6 +144,7 @@ function dropDown5() {
 }
 dropDown5();
 
+<<<<<<< HEAD
 function dropDown6() {
     let content = document.querySelector(".dropdown-content6");
 
@@ -166,3 +167,18 @@ function dropDown6() {
     });
 }
 dropDown6();
+=======
+function bagPage() {
+    let user = JSON.parse(localStorage.getItem("token"))
+
+    if (user == null || user == undefined) {
+        window.location.href = '/user/login'
+        return alert("Please Login First")
+    }
+    let userId = user.id;
+
+
+
+    window.location.href = `/bag/${userId}`
+}
+>>>>>>> 19fd71c722da5c5472da681b4db54034084b7c76

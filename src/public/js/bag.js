@@ -81,8 +81,8 @@ function appendPage() {
                 <div class = "total">
                     <h3 style = "float: left; font-size: larger; color: black; font-weight: 700;">My Shopping Bag(1 item)</h3>
                     <h3 style = "float: right; font-size: larger; color: black; font-weight: 700;">Total: Rs. ${Math.ceil(
-                      (pro.oldprice * (100 - pro.discount)) / 100
-                    )}</h3>
+    (pro.oldprice * (100 - pro.discount)) / 100
+  )}</h3>
                 </div>
                 <br><br><br>
                 <div class = "par">
@@ -91,9 +91,8 @@ function appendPage() {
                         <img id = "img2" src = "${pro.img}"/>
                         <div class = "child">
                             <p class = "p">${pro.brand_name}<br>
-                            ${
-                              pro.T_shirt_name
-                            }<h5>Sold By : Vision Star</h5></p>
+                            ${pro.T_shirt_name
+    }<h5>Sold By : Vision Star</h5></p>
                             <select name="size" id="size">
                                 <option value="SIZE:L">SIZE: L</option>
                                 <option value="SIZE:M">SIZE: M</option>
@@ -117,11 +116,10 @@ function appendPage() {
 
                         </div>
                         <div>
-                            <p id = "discount"><s>Rs. ${
-                              pro.oldprice
-                            }</s><br>Rs. ${Math.ceil(
-    (pro.oldprice * (100 - pro.discount)) / 100
-  )}</p>
+                            <p id = "discount"><s>Rs. ${pro.oldprice
+    }</s><br>Rs. ${Math.ceil(
+      (pro.oldprice * (100 - pro.discount)) / 100
+    )}</p>
                         </div>
                     </div>
                 </div>`;
@@ -138,8 +136,8 @@ function appendPage() {
                     <p class = "child7">Rs. ${pro.oldprice}</p>
                     <p class = "child8">Discount on MRP</p>
                     <p class = "child9">- Rs. ${Math.ceil(
-                      (pro.oldprice * pro.discount) / 100
-                    )}</p>
+    (pro.oldprice * pro.discount) / 100
+  )}</p>
                     <p class = "child10">Coupon Discount</p>
                     <button class = "child11">Apply Coupon</button>
                     <p class = "child12">Convenience Fee <b style = "color: #ff3f6c;;">Know More</b></p>
@@ -147,13 +145,13 @@ function appendPage() {
                     <hr class = "child14">
                     <p class = "child15">Total Amount</p>
                     <p class = "child16">Rs. ${Math.ceil(
-                      (pro.oldprice * (100 - pro.discount)) / 100
-                    )}</p>
+    (pro.oldprice * (100 - pro.discount)) / 100
+  )}</p>
                     <button class = "child17" onclick="showAddressPage()">PLACE ORDER</button>
                 </div>`;
 }
 
-appendPage();
+// appendPage();
 
 function showAddressPage() {
   window.location.href = "/address";

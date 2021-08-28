@@ -46,6 +46,9 @@
 .dropdown-content5:hover {
   border-bottom: 5px solid peachpuff;
 }
+.dropdown-content6:hover {
+  border-bottom: 5px solid rgb(255, 143, 45);
+}
 
 .dropdown-menu {
   /* display: none;
@@ -78,6 +81,9 @@
 }
 .dropdown-menu5 {
   left: 34%;
+}
+.dropdown-menu6 {
+  left: 84%;
 }
 .dropdown-menu ul li {
   margin-bottom: 10px;

@@ -3,6 +3,7 @@
   <head>
     <title>myntra.com</title>
     <link rel="stylesheet" href="/static/css/signup.css" />
+    <link rel="shortcut icon" href="#" />
   </head>
   <body>
     <div class="header sticky">
@@ -86,6 +87,13 @@
           <p class="signinheader">CREATE A NEW ACCOUNT</p>
         </div>
         <form id="formContainer">
+          <input type="text" placeholder="Enter your name" id="Name" />
+          <input type="text" placeholder="Mobile No." id="Username" />
+          <input type="email" placeholder="Email" id="Email" />
+          <input type="password" placeholder="Password" id="Password" />
+          <input type="submit" value="Register" />
+        </form>
+        <!-- <form id="formContainer">
           <input type="text" id="username" placeholder="Username" required />
           <input
             type="mobileno"
@@ -100,11 +108,11 @@
             placeholder="Password"
             required
           />
-        </form>
+        </form> -->
         <div id="alert"></div>
         <br />
-        <button class="signinbtn" onclick="storeDetails()">SIGN UP</button
-        ><br />
+        <!-- <button class="signinbtn" onclick="storeDetails()">SIGN UP</button > -->
+        <br />
         <p style="text-align: center">
           Already have an account <span onclick="loginpage()">click Here</span>
         </p>
@@ -113,3 +121,29 @@
   </body>
 </html>
 <script src="/static/js/signin.js"></script>
+<script>
+  const form = document.getElementById("formContainer");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const name = document.getElementById("Name").value;
+    const username = document.getElementById("Username").value;
+    const password = document.getElementById("Password").value;
+
+    const result = await fetch("/user/register", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        username,
+        password,
+      }),
+    }).then((res) => res.json());
+    if (result.status === "ok") {
+      alert("success");
+    } else {
+      alert(result.error);
+    }
+  });
+</script>

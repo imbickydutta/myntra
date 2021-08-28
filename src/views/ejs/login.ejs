@@ -89,8 +89,9 @@
           Login <span id="smallheader">Or </span>Signup
         </div>
         <form id="login">
-          <input type="text" id="mobileno" placeholder="Mobile Number" /><br />
-          <input type="password" id="password" placeholder="Enter Password" />
+          <input type="text" placeholder="Username" id="Username" />
+          <input type="password" placeholder="Password" id="Password" />
+          <input type="submit" value="Login" />
         </form>
         <p>
           By continuing I agree to the<span class="smallhead">
@@ -99,10 +100,37 @@
         </p>
         <p>Don't have account <span onclick="signinpage()">Signup</span></p>
         <div id="alert"></div>
-        <div class="continue" onclick="checkcredentials()">CONTINUE</div>
+        <!-- <div class="continue" onclick="checkcredentials()">CONTINUE</div> -->
       </div>
     </div>
   </body>
 </html>
 
 <script src="/static/js/login.js"></script>
+
+<script>
+  const form = document.getElementById("login");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const username = document.getElementById("Username").value;
+    const password = document.getElementById("Password").value;
+
+    const result = await fetch("/user/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        username,
+        password,
+      }),
+    }).then((res) => res.json());
+    if (result.status === "ok") {
+      // console.log("got the token", result.data);
+      window.location.href = "/home";
+      // alert("success");
+    } else {
+      alert(result.error);
+    }
+  });
+</script>

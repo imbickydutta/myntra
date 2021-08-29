@@ -51,6 +51,22 @@ router.get("/:userId", async (req, res) => {
   }
 });
 
+router.post('/deleteItem/', async (req, res) => {
+  let { userId, prodId } = req.body;
+  let user = await User.findById(userId).lean().exec();
+
+
+  let bag = user.bagItems
+
+  let newBag = bag.filter(item => {
+    return item.productId != prodId
+  })
+
+  user = await User.findByIdAndUpdate(userId, { bagItems: newBag }, { new: true }).lean().exec();
+  return res.json(user)
+
+})
+
 router.post("/addtoCart", async (req, res) => {
   let { userId, prodId } = req.body;
   let user = await User.findById(userId).lean().exec();

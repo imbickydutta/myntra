@@ -20,18 +20,19 @@ var obj = {
   discountPrice: 421,
   discountPercentage: 35,
 };
-function addtoCart() {
-  // let cart = JSON.parse(localStorage.getItem("cart"));
 
-  // if (cart == null) {
-  //     cart = [];
-  // }
-  // cart.push(item);
+// function addtoCart() {
+//   // let cart = JSON.parse(localStorage.getItem("cart"));
 
-  // localStorage.setItem("cart", JSON.stringify(cart));
+//   // if (cart == null) {
+//   //     cart = [];
+//   // }
+//   // cart.push(item);
 
-  window.location.href = "/login";
-}
+//   // localStorage.setItem("cart", JSON.stringify(cart));
+
+//   window.location.href = "/login";
+// }
 
 // function appendPage() {
 //   let div = document.getElementById("content");

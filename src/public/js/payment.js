@@ -34,7 +34,32 @@ function successfulPayment() {
       return;
     }
   }
-  setTimeout(function () {
-    window.location.href = "/successfulPayment";
-  }, 3000);
+
+  removeItems()
+
+
+  window.location.href = "/payment/process";
+
 }
+
+
+async function removeItems() {
+
+  const userObj = JSON.parse(localStorage.getItem("token"));
+  const userId = userObj.id;
+
+  // console.log(userId);
+  // console.log(prodId);
+
+  const result = await fetch("/bag/removeitems", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      userId
+    }),
+  }).then((res) => res.json());
+}
+
+

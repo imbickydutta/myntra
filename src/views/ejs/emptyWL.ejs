@@ -11,27 +11,53 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/static/css/bag.css" />
+    <link rel="stylesheet" href="/static/css/navbar.css" />
+    <link rel="stylesheet" href="/static/css/footer.css" />
+    <link rel="stylesheet" href="/static/css/home.css" />
+    <style>
+      main {
+        height: 75vh;
+        display: flex;
+        font-family: Whitney, Helvetica, Arial, sans-serif !important;
+        text-align: center;
+      }
+
+      main img {
+        margin: auto !important;
+        width: 40%;
+      }
+      main h3 {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 1000;
+        padding-bottom: 10px;
+      }
+      main p {
+        color: #000000;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 10px;
+      }
+
+      main > div > div {
+        border: 2px solid #ed4f7a;
+        padding: 10px 0;
+        color: #ed4f7a;
+        font-size: 15px;
+      }
+      main > div {
+        margin: auto;
+      }
+      a {
+        color: #ed4f7a;
+        text-decoration: none;
+      }
+    </style>
+
+    <!-- <link rel="stylesheet" href="/static/css/bag.css" /> -->
   </head>
   <body>
-    <div class="header">
-      <img
-        class="myntraLogo"
-        src="https://www.searchpng.com/wp-content/uploads/2019/01/Myntra-logo-png-icon.png"
-      />
-      <div class="headerCenter">
-        <a href="\bag">BAG --------</a>
-        <a href="\address">ADDRESS --------</a>
-        <a href="\payment">PAYMENT</a>
-      </div>
-      <div class="headerRight">
-        <img
-          class="image2"
-          src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"
-        />
-        <h4 style="float: right">100% SECURE</h4>
-      </div>
-    </div>
+    <%- include('navbar.ejs') -%>
 
     <main>
       <div>
@@ -44,56 +70,11 @@
           src="https://mahendrajewellers.com/wp-content/plugins/mahendrajewellers-products/public//image/wish-list-Small.png"
           alt=""
         />
-        <div>Continue Shopping</div>
+        <div><a href="/home">Continue Shopping</a></div>
       </div>
     </main>
 
-    <div class="footer">
-      <div class="container3">
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ssl.png"
-        />
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png"
-        />
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png"
-        />
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ae.png"
-        />
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-dc.png"
-        />
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-nb.png"
-        />
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-cod.png"
-        />
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png"
-        />
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png"
-        />
-        <img
-          class="images"
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-bhim.png"
-        />
-      </div>
-
-      <a class="contact" href=""><span>Need Help? Contact Us</span></a>
-    </div>
+    <%- include("footer.ejs") -%>
   </body>
 </html>
 

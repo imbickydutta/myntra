@@ -18,6 +18,10 @@ router.get("/:userId", async (req, res) => {
 
     let bag = user.wishListItems;
 
+    if (bag.length === 0) {
+      return res.render("ejs/emptyWL");
+    }
+
     // console.log(bag);
 
     let prodArr = [];
@@ -47,6 +51,26 @@ router.post("/add", async (req, res) => {
   user = await User.findByIdAndUpdate(
     userId,
     { wishListItems: [...bag, { productId: prodId }] },
+    { new: true }
+  )
+    .lean()
+    .exec();
+  return res.json(user);
+});
+
+router.post("/deleteItem/", async (req, res) => {
+  let { userId, prodId } = req.body;
+  let user = await User.findById(userId).lean().exec();
+
+  let bag = user.wishListItems;
+
+  let newBag = bag.filter((item) => {
+    return item.productId != prodId;
+  });
+
+  user = await User.findByIdAndUpdate(
+    userId,
+    { wishListItems: newBag },
     { new: true }
   )
     .lean()

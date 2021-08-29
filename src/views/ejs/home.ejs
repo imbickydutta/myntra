@@ -77,7 +77,7 @@
           </div>
 
           <div>
-            <a href="">
+            <a href="#" onclick="wishPage()">
               <img
                 id="svg"
                 src="https://www.svgrepo.com/show/14970/heart.svg"
@@ -89,7 +89,7 @@
           </div>
 
           <div>
-            <a onclick="bagPage()">
+            <a href="#" onclick="bagPage()">
               <img
                 id="svg"
                 src="https://www.svgrepo.com/show/17522/bag.svg"
@@ -153,13 +153,11 @@
         </ul>
       </div>
 
-      <div class="dropdown-menu6 dropdown-menu">
+      <div class="dropdown-menu6 dropdown-menu changediv">
         <ul>
-          <li><a href="\signin">LogIn</a></li>
-          <li><a href="\bag">Cart</a></li>
+          <li><a href="\signin">Login/SignUp</a></li>
+          <li><a href="\bag">Bag</a></li>
           <li><a href="\wishlist">Wishlist</a></li>
-          <li><a href="\products">xxxx</a></li>
-          <li><a href="\products">xxx</a></li>
         </ul>
       </div>
 
@@ -489,3 +487,20 @@
 <script src="/static/js/home.js"></script>
 
 <script src="/static/js/search.js"></script>
+
+<script>
+  function changeProfile() {
+    let token = JSON.parse(localStorage.getItem("token"));
+    if (token != null || token != undefined) {
+      let div = document.querySelector(".changediv");
+      div.innerHTML = `<ul>
+          <li ><a href="#">${token.name}</a></li>
+          <li><a href="/bag/${token.id}">Bag</a></li>
+          <li><a href="/wishlist/${token.id}">Wishlist</a></li>
+          <li><a href="/home" onclick="logout()">Logout</a></li>
+        </ul>`;
+    }
+  }
+
+  changeProfile();
+</script>

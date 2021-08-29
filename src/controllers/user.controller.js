@@ -25,7 +25,7 @@ router.post("/login", async (req, res) => {
   }
   if (await bcrypt.compare(password, user.password)) {
     const token = jwt.sign(
-      { id: user._id, username: user.username },
+      { id: user._id, username: user.username, name: user.name },
       JWT_SECRET
     );
     const userUpdate = await User.findByIdAndUpdate(

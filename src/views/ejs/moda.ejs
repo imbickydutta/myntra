@@ -288,4 +288,19 @@
     }).then((res) => res.json());
     alert("Item Successfully Added to WishList");
   }
+
+  async function addtoCart(prodId) {
+    console.log(prodId);
+    const result = await fetch("/bag/addtoCart", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        userId,
+        prodId,
+      }),
+    }).then((res) => res.json());
+    alert("Item Successfully Added to Cart");
+  }
 </script>

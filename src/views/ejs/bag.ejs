@@ -74,7 +74,7 @@
                 <% bag.map((pro) => { %>
                 <div class = "par">
                     <div id = "addImages">
-                        <div id="delete-btn"> X </div>
+                        <div onclick="deleteItem('<%= pro[0]._id %>')" id="delete-btn"> X </div>
                         
 
                         <img id = "img2" src = "<%= pro[0].images[0] %>"/>

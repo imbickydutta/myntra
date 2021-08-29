@@ -156,3 +156,25 @@ function appendPage() {
 function showAddressPage() {
   window.location.href = "/address";
 }
+
+
+async function deleteItem(prodId) {
+
+  const userObj = JSON.parse(localStorage.getItem("token"));
+  const userId = userObj.id;
+
+
+  const result = await fetch("/bag/deleteItem", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      userId,
+      prodId,
+    }),
+  }).then((res) => res.json());
+  alert("Item Removed");
+  window.location.reload()
+
+}

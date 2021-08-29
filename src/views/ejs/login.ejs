@@ -127,10 +127,10 @@
     if (result.status === "ok") {
       localStorage.setItem("token", JSON.stringify(result.data));
 
-      window.location.href = "/home";
+      return (window.location.href = "/home");
       // alert("success");
-    } else {
-      alert(result.error);
     }
+
+    alert("Invalid Username or Password");
   });
 </script>

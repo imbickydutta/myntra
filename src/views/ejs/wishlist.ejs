@@ -49,9 +49,13 @@
 
     <div id="products-right">
       <% items.map((pro) => { %>
-      <a class="each-product" onclick="changePage('<%= pro[0]._id %>')">
-        <div onclick="redirect('<%= pro[0]._id %>')">
-          <img src="<%= pro[0].images[0] %>" alt="" />
+      <a class="each-product">
+        <div>
+          <img
+            onclick="redirect('<%= pro[0]._id %>')"
+            src="<%= pro[0].images[0] %>"
+            alt=""
+          />
           <div class="brand"><%= pro[0].brandName %></div>
           <div class="name"><%= pro[0].productName %></div>
           <div class="price">

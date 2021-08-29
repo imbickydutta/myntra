@@ -10,7 +10,7 @@ In this project we have tried to make a look alike clone of Myntra Website. With
 Clone the project
 
 ```bash
-  git clone https://github.com/imbickydutta/myntra_clone
+  git clone https://github.com/imbickydutta/myntra
 ```
 
 Install npm packages

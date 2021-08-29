@@ -272,6 +272,7 @@ select:focus {
 
 .each-product {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .each-product div {

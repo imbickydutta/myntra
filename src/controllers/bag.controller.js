@@ -71,6 +71,16 @@ router.post('/deleteItem/', async (req, res) => {
 
 })
 
+router.post('/removeitems/', async (req, res) => {
+  let { userId } = req.body;
+  let user = await User.findById(userId).lean().exec();
+
+
+  user = await User.findByIdAndUpdate(userId, { bagItems: [] }, { new: true }).lean().exec();
+  return res.json(user)
+
+})
+
 router.post("/addtoCart", async (req, res) => {
   let { userId, prodId } = req.body;
   let user = await User.findById(userId).lean().exec();

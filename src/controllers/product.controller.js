@@ -14,7 +14,7 @@ router.get("/", async (req, res) => {
 // Routes for Categories
 
 router.get("/type/:id", async (req, res) => {
-  const products = await Product.find({ category: req.params.id }).lean();
+  const products = await Product.find({ category: req.params.id, gender: "men" }).lean();
   //   res.json(products);
   return res.render("ejs/products", {
     products: products,
@@ -22,7 +22,7 @@ router.get("/type/:id", async (req, res) => {
 });
 
 router.get("/type/:cat/:id", async (req, res) => {
-  const products = await Product.find({ category: req.params.cat, brandName: req.params.id }).lean();
+  const products = await Product.find({ category: req.params.cat, brandName: req.params.id, gender: "men" }).lean();
   //   res.json(products);
   return res.render("ejs/products", {
     products: products,
@@ -30,7 +30,7 @@ router.get("/type/:cat/:id", async (req, res) => {
 });
 
 router.get("/sortltoh/:category/", async (req, res) => {
-  const products = await Product.find({ category: req.params.category }).lean();
+  const products = await Product.find({ category: req.params.category, gender: "men" }).lean();
   //   res.json(products);
 
   products.sort(function (a, b) {
@@ -42,7 +42,7 @@ router.get("/sortltoh/:category/", async (req, res) => {
 });
 
 router.get("/sort/:category/", async (req, res) => {
-  const products = await Product.find({ category: req.params.category }).sort({ discount: -1 }).lean();
+  const products = await Product.find({ category: req.params.category, gender: "men" }).sort({ discount: -1 }).lean();
   //   res.json(products);
 
   // products.sort(function (a, b) {
@@ -54,7 +54,7 @@ router.get("/sort/:category/", async (req, res) => {
 });
 
 router.get("/sorthtol/:category/", async (req, res) => {
-  const products = await Product.find({ category: req.params.category }).lean();
+  const products = await Product.find({ category: req.params.category, gender: "men" }).lean();
   //   res.json(products);
 
   products.sort(function (a, b) {
@@ -66,7 +66,7 @@ router.get("/sorthtol/:category/", async (req, res) => {
 });
 
 router.get("/color/:color/:category", async (req, res) => {
-  const products = await Product.find({ category: req.params.category, color: req.params.color }).lean();
+  const products = await Product.find({ category: req.params.category, color: req.params.color, gender: "men" }).lean();
   //   res.json(products);
 
   return res.render("ejs/products", {
@@ -76,7 +76,7 @@ router.get("/color/:color/:category", async (req, res) => {
 
 
 router.get("/price/:x/:y/:category/", async (req, res) => {
-  const products = await Product.find({ category: req.params.category }).lean();
+  const products = await Product.find({ category: req.params.category, gender: "men" }).lean();
   //   res.json(products);
   let newproducts = products.filter(function (el) {
     return el.price * ((100 - el.discount) / 100) < req.params.x && el.price * ((100 - el.discount)) / 100 > req.params.y;

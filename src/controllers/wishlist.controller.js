@@ -16,7 +16,7 @@ router.get("/:userId", async (req, res) => {
   try {
     let user = await User.findById(req.params.userId);
 
-    let bag = user.wishListItems;
+    // let bag = user.wishListItems;
 
     // console.log(bag);
 

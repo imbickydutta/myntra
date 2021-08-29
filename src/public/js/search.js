@@ -6,13 +6,13 @@ const suggBox = document.querySelector(".autocom");
 
 
 suggestions = [
-    ["tshirts for men", "/type/tshirt"],
+    ["tshirts for men", "products/type/tshirt"],
     ["jeans for men", "/type/jeans"],
     ["shoes for men", "/type/shoes"],
     ["suits for men", "/type/suits"],
     ["caps for men", "/type/caps"],
-    ["tops for women", "/type/Top"],
-    ["sarees for women", "/type/Saree"],
+    ["tops for women", "products2/ethnic"],
+    ["ethnic wear for women", "products2/ethnic"],
     ["flats for women", "/type/Flats"],
     ["jeans for women", "/type/Jeans"],
     ["kurta for Women", "/type/Kurta"],
@@ -33,7 +33,7 @@ inputBox.onkeyup = (e) => {
         });
         emptyArray = emptyArray.map((data) => {
             // passing return data inside li tag
-            return data = `<a class="ac-results" href="/products${data[1]}">${data[0]}</a>`;
+            return data = `<a class="ac-results" href="/${data[1]}">${data[0]}</a>`;
         });
         showSuggestions(emptyArray);
     }

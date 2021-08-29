@@ -15,6 +15,11 @@
       #products-right {
         margin-top: 100px;
       }
+      button {
+        padding: 10px;
+        width: 100%;
+        font-size: 17px;
+      }
     </style>
   </head>
   <body>
@@ -52,7 +57,14 @@
           <div class="price">
             Rs. <%= Math.ceil(pro[0].price * (100 - pro[0].discount) / 100)%>
             <span class="line-through"> Rs. <%= pro[0].price %></span>
-            <span class="discount">(<%= pro[0].discount %> % OFF)</span>
+            <span class="discount" font-size="5px !important"
+              >(<%= pro[0].discount %> % OFF)</span
+            >
+          </div>
+          <div class="newdiv">
+            <button class="wishbtn" onclick="deleteItem('<%=pro[0]._id %>')">
+              Delete Item
+            </button>
           </div>
         </div>
       </a>
@@ -62,3 +74,23 @@
     <%- include('footer.ejs') -%>
   </body>
 </html>
+
+<script>
+  async function deleteItem(prodId) {
+    const userObj = JSON.parse(localStorage.getItem("token"));
+    const userId = userObj.id;
+
+    const result = await fetch("/wishlist/deleteItem", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        userId,
+        prodId,
+      }),
+    }).then((res) => res.json());
+    alert("Item Removed");
+    window.location.reload();
+  }
+</script>

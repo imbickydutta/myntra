@@ -18,6 +18,8 @@ router.get("/:userId", async (req, res) => {
 
         // console.log(bag);
 
+
+
         let prodArr = []
         for (let i = 0; i < bag.length; i++) {
             let product = await Product.findById(bag[i].productId);

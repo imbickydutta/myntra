@@ -14,7 +14,8 @@ function sort(x) {
     }
   }
 }
-sort();
+
+sort("tshirt");
 
 
 // funtions for mens page

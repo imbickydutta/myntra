@@ -20,6 +20,10 @@ router.get("/:userId", async (req, res) => {
 
     // console.log(bag);
 
+    if (bag.length == 0) {
+      return res.render("ejs/emptyBag");
+    }
+
     let prodArr = [];
 
     // bag.forEach(async function (item) {

@@ -116,11 +116,18 @@
         </div>
         <span class="size-button-arrow"></span>
         <div class="sizes">
-          <div class="circles">S</div>
+          <!-- <div class="circles">S</div>
           <div class="circles">M</div>
           <div class="circles">L</div>
           <div class="circles">XL</div>
+<<<<<<< HEAD
+          <div class="circles">XXL</div> -->
+          <% for(let i = 0; i < el.sizes.length; i++) { %>
+            <div class="circles"><%=el.sizes[i]%></div>
+            <% } %>
+=======
           <div class="circles">XXL</div>
+>>>>>>> 19fd71c722da5c5472da681b4db54034084b7c76
         </div>
         <div class="newdiv">
           <button class="cartbtn" onclick="addtoCart('<%=el._id %>')">

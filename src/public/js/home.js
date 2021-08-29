@@ -2,13 +2,13 @@ let timerID;
 var slideIndex = 0;
 showSlides(slideIndex);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+// function plusSlides(n) {
+//     showSlides(slideIndex += n);
+// }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+// function currentSlide(n) {
+//     showSlides(slideIndex = n);
+// }
 
 
 function showSlides() {
@@ -144,6 +144,30 @@ function dropDown5() {
 }
 dropDown5();
 
+<<<<<<< HEAD
+function dropDown6() {
+    let content = document.querySelector(".dropdown-content6");
+
+    content.addEventListener("mouseover", function () {
+        let menu = document.querySelector(".dropdown-menu6");
+        menu.style.display = "block";
+    });
+
+    let menu = document.querySelector(".dropdown-menu6");
+    menu.addEventListener("mouseover", function () {
+        menu.style.display = "block";
+        menu.addEventListener("mouseout", function () {
+            menu.style.display = "none";
+        });
+    });
+
+    content.addEventListener("mouseout", function () {
+        let menu = document.querySelector(".dropdown-menu6");
+        menu.style.display = "none";
+    });
+}
+dropDown6();
+=======
 function bagPage() {
     let user = JSON.parse(localStorage.getItem("token"))
 
@@ -157,3 +181,4 @@ function bagPage() {
 
     window.location.href = `/bag/${userId}`
 }
+>>>>>>> 19fd71c722da5c5472da681b4db54034084b7c76

@@ -290,3 +290,35 @@ select {
 #delete-btn:hover {
   cursor: pointer;
 }
+
+main {
+  height: 75vh;
+  display: flex;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  text-align: center;
+}
+
+main img {
+  margin: auto !important;
+  width: 40%;
+}
+main h3 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 1000;
+}
+main p {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+main > div > div {
+  border: 2px solid #ed4f7a;
+  padding: 10px 0;
+  color: #ed4f7a;
+  font-size: 15px;
+}
+main > div {
+  margin: auto;
+}

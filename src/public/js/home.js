@@ -165,6 +165,8 @@ function dropDown6() {
     });
 }
 dropDown6();
+
+
 function bagPage() {
     let user = JSON.parse(localStorage.getItem("token"));
 
@@ -175,4 +177,21 @@ function bagPage() {
     let userId = user.id;
 
     window.location.href = `/bag/${userId}`;
+}
+
+function wishPage() {
+    let user = JSON.parse(localStorage.getItem("token"));
+
+    if (user == null || user == undefined) {
+        window.location.href = "/user/login";
+        return alert("Please Login First");
+    }
+    let userId = user.id;
+
+    window.location.href = `/wishlist/${userId}`;
+}
+
+function logout() {
+    localStorage.removeItem("token");
+    // window.location.href = "/home"
 }

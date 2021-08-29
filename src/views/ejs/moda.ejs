@@ -130,7 +130,7 @@
           <button class="cartbtn" onclick="addtoCart('<%=el._id %>')">
             <img src="https://www.svgrepo.com/show/17522/bag.svg" />ADD TO BAG
           </button>
-          <button class="wishbtn" onclick="addtoWishList()">
+          <button class="wishbtn" onclick="addtoWishList('<%=el._id %>')">
             <img src="https://www.svgrepo.com/show/14970/heart.svg" />WISH LIST
           </button>
         </div>
@@ -274,9 +274,9 @@
   const userId = userObj.id;
   console.log(userId);
 
-  async function addtoCart(prodId) {
+  async function addtoWishList(prodId) {
     console.log(prodId);
-    const result = await fetch("/bag/addtoCart", {
+    const result = await fetch("/wishlist/add", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -286,6 +286,6 @@
         prodId,
       }),
     }).then((res) => res.json());
-    alert("Item Successfully Added to Bag");
+    alert("Item Successfully Added to WishList");
   }
 </script>

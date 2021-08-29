@@ -14,6 +14,8 @@ const productController2 = require("./controllers/product2.controller");
 const homeController = require("./controllers/home.controller");
 const addressController = require("./controllers/address.controller");
 const bagController = require("./controllers/bag.controller");
+const wishlistController = require("./controllers/wishlist.controller");
+
 const loginController = require("./controllers/login.controller");
 const mensControllers = require("./controllers/mens.controller");
 const modaControllers = require("./controllers/moda.controller");
@@ -41,6 +43,9 @@ app.use("/products2", productController2);
 app.use("/home", homeController);
 app.use("/address", addressController);
 app.use("/bag", bagController);
+
+app.use("/wishlist", wishlistController);
+
 app.use("/login", loginController);
 app.use("/mens", mensControllers);
 app.use("/moda", modaControllers);

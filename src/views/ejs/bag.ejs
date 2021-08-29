@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOPPING BAG</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/css/bag.css">
 </head>
 <body>
@@ -73,6 +74,8 @@
                 <% bag.map((pro) => { %>
                 <div class = "par">
                     <div id = "addImages">
+                        <div id="delete-btn"> X </div>
+                        
 
                         <img id = "img2" src = "<%= pro[0].images[0] %>"/>
                         <div class = "child">
@@ -100,8 +103,10 @@
                             </select>
                             <h3>Discount: <%=pro[0].discount%> %</h3>
                             <h6 style = "color: cornflowerblue;">Delivery By 28 JUL 2021</h6>
+                            
 
                         </div>
+                        
                         <div>
                             <p id = "discount"><s>Rs. <%=
                               pro[0].price * pro[1]

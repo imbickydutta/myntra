@@ -275,3 +275,18 @@ select {
   height: 40px;
   border: 1px solid #ff3f6c;
 }
+
+.fa-xmark {
+  color: #000000;
+  font-size: 20px;
+}
+
+#delete-btn {
+  float: right;
+  margin: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#delete-btn:hover {
+  cursor: pointer;
+}

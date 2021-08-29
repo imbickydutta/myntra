@@ -7,3 +7,7 @@ router.get("/", async (req, res) => {
 });
 
 module.exports = router;
+
+router.get("/process", async (req, res) => {
+  return res.render("ejs/successfulPayment");
+});

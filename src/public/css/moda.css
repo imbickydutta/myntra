@@ -33,12 +33,11 @@ body {
   list-style-type: none;
   align-items: center;
 }
-
 .categories {
   margin-left: 50px;
   /* display: block; */
   float: left;
-  width: 37%;
+  width: 33%;
   /* border: 1px solid red; */
   /* position: absolute; */
 }
@@ -63,7 +62,7 @@ body {
 img {
   display: block;
 }
-.search-div {
+/* .search-div {
   display: flex;
   width: 35%;
   background-color: #eee;
@@ -72,7 +71,7 @@ img {
   justify-content: flex-start;
   margin-left: 7%;
   border-radius: 3px;
-}
+} */
 
 #searchpng {
   /* height: 10px; */

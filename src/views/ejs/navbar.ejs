@@ -16,6 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <link rel="stylesheet" href="/static/css/navbar.css" />
+    <link rel="stylesheet" href="/static/css/home.css" />
   </head>
   <body>
     <div class="autocom"></div>
@@ -100,8 +101,8 @@
     <!-- dropdown -->
     <div class="dropdown-menu1 dropdown-menu">
       <ul>
-        <li><a href="\products">Shirts</a></li>
-        <li><a href="\products">Tshirts</a></li>
+        <li><a href="\products/type/tshirt">Shirts</a></li>
+        <li><a href="\products/type/tshirt">Tshirts</a></li>
         <li><a href="\products">Jeans</a></li>
         <li><a href="\products">Shoes</a></li>
         <li><a href="\products">Accessories</a></li>
@@ -110,7 +111,7 @@
 
     <div class="dropdown-menu2 dropdown-menu">
       <ul>
-        <li><a href="\products2/Saree">Ethnic</a></li>
+        <li><a href="\products2/ethnic">Ethnic</a></li>
         <li><a href="\products">western wear</a></li>
         <li><a href="\products">Footwear</a></li>
         <li><a href="\products">sports wear</a></li>
@@ -157,3 +158,189 @@
     </div>
   </body>
 </html>
+<script src="/static/js/home.js"></script>
+
+<script src="/static/js/search.js"></script>
+
+<script>
+  function changeProfile() {
+    let token = JSON.parse(localStorage.getItem("token"));
+    if (token != null || token != undefined) {
+      let div = document.querySelector(".changediv");
+      div.innerHTML = `<ul>
+          <li ><a href="#">${token.name}</a></li>
+          <li><a href="/bag/${token.id}">Bag</a></li>
+          <li><a href="/wishlist/${token.id}">Wishlist</a></li>
+          <li><a href="/home" onclick="logout()">Logout</a></li>
+        </ul>`;
+    }
+  }
+  changeProfile();
+
+  function dropDown1() {
+    let content = document.querySelector(".dropdown-content1");
+
+    content.addEventListener("mouseover", function () {
+      let menu = document.querySelector(".dropdown-menu1");
+      menu.style.display = "block";
+    });
+
+    let menu = document.querySelector(".dropdown-menu1");
+    menu.addEventListener("mouseover", function () {
+      menu.style.display = "block";
+      menu.addEventListener("mouseout", function () {
+        menu.style.display = "none";
+      });
+    });
+
+    content.addEventListener("mouseout", function () {
+      let menu = document.querySelector(".dropdown-menu1");
+      menu.style.display = "none";
+    });
+  }
+  dropDown1();
+
+  function dropDown2() {
+    let content = document.querySelector(".dropdown-content2");
+
+    content.addEventListener("mouseover", function () {
+      let menu = document.querySelector(".dropdown-menu2");
+      menu.style.display = "block";
+    });
+
+    let menu = document.querySelector(".dropdown-menu2");
+    menu.addEventListener("mouseover", function () {
+      menu.style.display = "block";
+      menu.addEventListener("mouseout", function () {
+        menu.style.display = "none";
+      });
+    });
+
+    content.addEventListener("mouseout", function () {
+      let menu = document.querySelector(".dropdown-menu2");
+      menu.style.display = "none";
+    });
+  }
+  dropDown2();
+
+  function dropDown3() {
+    let content = document.querySelector(".dropdown-content3");
+
+    content.addEventListener("mouseover", function () {
+      let menu = document.querySelector(".dropdown-menu3");
+      menu.style.display = "block";
+    });
+
+    let menu = document.querySelector(".dropdown-menu3");
+    menu.addEventListener("mouseover", function () {
+      menu.style.display = "block";
+      menu.addEventListener("mouseout", function () {
+        menu.style.display = "none";
+      });
+    });
+
+    content.addEventListener("mouseout", function () {
+      let menu = document.querySelector(".dropdown-menu3");
+      menu.style.display = "none";
+    });
+  }
+  dropDown3();
+
+  function dropDown4() {
+    let content = document.querySelector(".dropdown-content4");
+
+    content.addEventListener("mouseover", function () {
+      let menu = document.querySelector(".dropdown-menu4");
+      menu.style.display = "block";
+    });
+
+    let menu = document.querySelector(".dropdown-menu4");
+    menu.addEventListener("mouseover", function () {
+      menu.style.display = "block";
+      menu.addEventListener("mouseout", function () {
+        menu.style.display = "none";
+      });
+    });
+
+    content.addEventListener("mouseout", function () {
+      let menu = document.querySelector(".dropdown-menu4");
+      menu.style.display = "none";
+    });
+  }
+  dropDown4();
+
+  function dropDown5() {
+    let content = document.querySelector(".dropdown-content5");
+
+    content.addEventListener("mouseover", function () {
+      let menu = document.querySelector(".dropdown-menu5");
+      menu.style.display = "block";
+    });
+
+    let menu = document.querySelector(".dropdown-menu5");
+    menu.addEventListener("mouseover", function () {
+      menu.style.display = "block";
+      menu.addEventListener("mouseout", function () {
+        menu.style.display = "none";
+      });
+    });
+
+    content.addEventListener("mouseout", function () {
+      let menu = document.querySelector(".dropdown-menu5");
+      menu.style.display = "none";
+    });
+  }
+  dropDown5();
+  // conflicts
+  function dropDown6() {
+    let content = document.querySelector(".dropdown-content6");
+
+    content.addEventListener("mouseover", function () {
+      let menu = document.querySelector(".dropdown-menu6");
+      menu.style.display = "block";
+    });
+
+    let menu = document.querySelector(".dropdown-menu6");
+    menu.addEventListener("mouseover", function () {
+      menu.style.display = "block";
+      menu.addEventListener("mouseout", function () {
+        menu.style.display = "none";
+      });
+    });
+
+    content.addEventListener("mouseout", function () {
+      let menu = document.querySelector(".dropdown-menu6");
+      menu.style.display = "none";
+    });
+  }
+  dropDown6();
+
+  function bagPage() {
+    let user = JSON.parse(localStorage.getItem("token"));
+
+    if (user == null || user == undefined) {
+      window.location.href = "/user/login";
+      return alert("Please Login First");
+    }
+    let userId = user.id;
+
+    window.location.href = `/bag/${userId}`;
+  }
+
+  function wishPage() {
+    let user = JSON.parse(localStorage.getItem("token"));
+
+    if (user == null || user == undefined) {
+      window.location.href = "/user/login";
+      return alert("Please Login First");
+    }
+    let userId = user.id;
+
+    window.location.href = `/wishlist/${userId}`;
+  }
+
+  function logout() {
+    localStorage.removeItem("token");
+    // window.location.href = "/home"
+  }
+</script>

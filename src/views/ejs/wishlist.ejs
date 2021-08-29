@@ -45,7 +45,7 @@
     <div id="products-right">
       <% items.map((pro) => { %>
       <a class="each-product" onclick="changePage('<%= pro[0]._id %>')">
-        <div>
+        <div onclick="redirect('<%= pro[0]._id %>')">
           <img src="<%= pro[0].images[0] %>" alt="" />
           <div class="brand"><%= pro[0].brandName %></div>
           <div class="name"><%= pro[0].productName %></div>
@@ -62,3 +62,8 @@
     <%- include('footer.ejs') -%>
   </body>
 </html>
+<script>
+  function redirect(x) {
+    window.location.href = `/moda/${x}`;
+  }
+</script>

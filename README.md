@@ -3,7 +3,7 @@
 
 Project: Clone of https://www.myntra.com/ site
 
-In this project we have tried to make a look alike clone of Myntra Website. With our efforts and the technology stack, that we have learned till now in Unit-3 in Masai School, we were able to clone the front end with similar looks and features.
+In this project we have tried to make a look alike clone of Myntra Website. With our efforts and the technology stack, that we have learned till now in Unit-3 in Masai School, we were able to clone the front end, integrated it with backend and added similar looks and features.
 
 ## Run Locally
 

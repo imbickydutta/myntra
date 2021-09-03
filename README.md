@@ -19,6 +19,16 @@ Install npm packages
 npm install
 ```
 
+Run the server
+```bash
+npm run server
+```
+
+View in Browser
+```
+go to http://localhost:3000/home
+```
+
 ## Technologies we used
 
 In this project we have used the following technologies:

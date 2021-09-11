@@ -40,7 +40,7 @@ app.set("view engine", "ejs");
 app.use("/products", productController);
 app.use("/products2", productController2);
 
-app.use("/home", homeController);
+app.use("/", homeController);
 app.use("/address", addressController);
 app.use("/bag", bagController);
 
